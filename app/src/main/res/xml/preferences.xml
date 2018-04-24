@@ -1,0 +1,46 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="链接">
+        <Preference
+            android:title="三翼校园">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="http://www.sky31.com"/>
+        </Preference>
+        <Preference
+            android:title="画眉小栈">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="http://xtuers.com"/>
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="感谢">
+        <Preference android:title="\@成会要洗心革面做笨蛋"
+            android:summary="图标设计">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://weibo.cn/u/2885293754"/>
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="贡献">
+        <Preference
+            android:title="意见反馈"
+            android:summary="向程(ma)序(nong)猿吐槽吧~"/>
+        <Preference
+            android:title="捐赠支持"
+            android:summary="您的支持会让软件得到更久的维护"
+            />
+        <Preference
+            android:title="源码@Github">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/linroid/Sky31Radio"/>
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="关于">
+        <Preference
+            android:title="开发者"
+            android:summary="张林">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="http://linroid.com"/>
+            </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

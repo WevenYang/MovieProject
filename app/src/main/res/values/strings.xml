@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">上影</string>
+    <string name="input">输入影名、演员名或者类型</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="forget">忘记密码</string>
+    <string name="home">首页</string>
+    <string name="comment">影评圈</string>
+    <string name="nearby">周边影讯</string>
+    <string name="setting">设置</string>
+    <string name="person_setting">个人设置</string>
+    <string name="my_data">我的资料</string>
+    <string name="my_message">我的消息</string>
+    <string name="my_public">我的发布</string>
+    <string name="my_reset">重置密码</string>
+    <string name="loginout">退出登录</string>
+    <string name="loading">待映</string>
+    <string name="hot">热门</string>
+    <string name="classic">经典</string>
+    <string name="succeed">刷新成功</string>
+    <string name="introduce">介绍</string>
+    <string name="actor">人员</string>
+    <string name="directors">导演</string>
+    <string name="actors">演员</string>
+    <string name="waiting">加载中......</string>
+    <string name="not_ready">该功能未完善</string>
+</resources>
