@@ -9,3 +9,8 @@ I will show some screenshots to all your guys. Wait for me!
 ![详情界面](https://github.com/WevenYang/MovieProject/blob/master/img/detail.jpg)
 ![搜索界面](https://github.com/WevenYang/MovieProject/blob/master/img/search.jpg)
 ![搜索界面](https://github.com/WevenYang/MovieProject/blob/master/img/search_result.jpg)
+
+
+### Contact Me
+* Email: 594771590@qq.com
+* GitHub: [Weven](https://github.com/WevenYang/MovieProject)
