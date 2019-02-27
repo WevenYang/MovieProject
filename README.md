@@ -6,7 +6,7 @@
 主要功能：热门电影、待映电影、经典电影、附近影讯、电影搜索、电影信息、主创阵容详情等
 
 ### 主要技术
-RxJAVA + Retrofit + mvp
+RxJAVA + Retrofit + MVP
 
 ### 主体界面
 <img src="/img/hot_frag.jpg" width="250" height="450" /> <img src="/img/loading_frag.jpg" width="250" height="450" /> <img src="/img/classic_frag.jpg" width="250" height="450" />
