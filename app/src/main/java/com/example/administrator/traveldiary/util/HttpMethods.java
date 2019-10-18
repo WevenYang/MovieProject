@@ -62,7 +62,7 @@ public class HttpMethods {
      * @param start 起始位置
      * @param count 获取长度
      */
-    public void getTopMovie(Subscriber<List<Subject>> subscriber, int start, int count){
+    public void getTopMovie(Subscriber<List<Subject>> subscriber, int start, int count, String key){
 
 //        movieService.getTopMovie(start, count)
 //                .map(new HttpResultFunc<List<Subject>>())
@@ -71,7 +71,7 @@ public class HttpMethods {
 //                .observeOn(AndroidSchedulers.mainThread())
 //                .subscribe(subscriber);
 
-        Observable observable = movieService.getTopMovie(start, count)
+        Observable observable = movieService.getTopMovie(start, count, key)
                 .map(new HttpResultFunc<List<Subject>>());
 
         toSubscribe(observable, subscriber);
@@ -82,8 +82,8 @@ public class HttpMethods {
      * @param subscriber    由调用者传过来的观察者对象
      * @param city  城市
      */
-    public void getHotMovie(Subscriber<List<Subject>> subscriber, String city){
-        Observable observable = movieService.getHotMovie(city)
+    public void getHotMovie(Subscriber<List<Subject>> subscriber, String city, String key){
+        Observable observable = movieService.getHotMovie(city, key)
                 .map(new HttpResultFunc<List<Subject>>());
         toSubscribe(observable, subscriber);
     }
@@ -94,8 +94,8 @@ public class HttpMethods {
      * @param start     起始位置
      * @param count     获取长度
      */
-    public void getLoadingMovie(Subscriber<List<Subject>> subscriber, int start, int count){
-        Observable observable = movieService.getLoadingMovie(start, count)
+    public void getLoadingMovie(Subscriber<List<Subject>> subscriber, int start, int count, String key){
+        Observable observable = movieService.getLoadingMovie(start, count, key)
                 .map(new HttpResultFunc<List<Subject>>());
         toSubscribe(observable, subscriber);
     }
@@ -107,8 +107,8 @@ public class HttpMethods {
      * @param start     起始位置
      * @param count     获取长度
      */
-    public void getResultByName(Subscriber<List<Subject>> subscriber, String name, int start, int count){
-        Observable observable = movieService.getResultByName(name, start, count).map(new HttpResultFunc<List<Subject>>());
+    public void getResultByName(Subscriber<List<Subject>> subscriber, String name, int start, int count, String key){
+        Observable observable = movieService.getResultByName(name, start, count, key).map(new HttpResultFunc<List<Subject>>());
         toSubscribe(observable, subscriber);
     }
 
@@ -120,8 +120,8 @@ public class HttpMethods {
      * @param start     起始位置
      * @param count     获取长度
      */
-    public void getResultByTag(Subscriber<List<Subject>> subscriber, String tag, int start, int count){
-        Observable observable = movieService.getResultByTag(tag, start, count).map(new HttpResultFunc<List<Subject>>());
+    public void getResultByTag(Subscriber<List<Subject>> subscriber, String tag, int start, int count, String key){
+        Observable observable = movieService.getResultByTag(tag, start, count, key).map(new HttpResultFunc<List<Subject>>());
         toSubscribe(observable, subscriber);
     }
 
@@ -129,8 +129,8 @@ public class HttpMethods {
      * @param subscriber        由调用者传过来的观察者对象
      * @param id         电影id
      */
-    public void getDetailMovie(Subscriber<Subject> subscriber, String id){
-        Observable observable = movieService.getDetailMovie(id);
+    public void getDetailMovie(Subscriber<Subject> subscriber, String id, String key){
+        Observable observable = movieService.getDetailMovie(id, key);
         toSubscribe(observable, subscriber);
     }
 

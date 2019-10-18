@@ -35,11 +35,11 @@ public interface MovieService {
 //    Observable<HttpResult<List<Subject>>> getTopMovie(@Query("start") int start, @Query("count") int count);
 
     @GET("top250")
-    Observable<HttpResult<List<Subject>>> getTopMovie(@Query("start") int start, @Query("count") int count);
+    Observable<HttpResult<List<Subject>>> getTopMovie(@Query("start") int start, @Query("count") int count, @Query("apikey") String apiKey);
     @GET("in_theaters")
-    Observable<HttpResult<List<Subject>>> getHotMovie(@Query("city") String city);
+    Observable<HttpResult<List<Subject>>> getHotMovie(@Query("city") String city, @Query("apikey") String apiKey);
     @GET("coming_soon")
-    Observable<HttpResult<List<Subject>>> getLoadingMovie(@Query("start") int start, @Query("count") int count);
+    Observable<HttpResult<List<Subject>>> getLoadingMovie(@Query("start") int start, @Query("count") int count, @Query("apikey") String apiKey);
     @FormUrlEncoded
     @POST("login")
     Observable<ServerHttpMethod<PersonData>> getLogin(@Field("account") String acc, @Field("password") String psd);
@@ -59,11 +59,11 @@ public interface MovieService {
     @GET("getMessage")
     Observable<ServerHttpMethod> sendMessage(@Query("token") String token, @Query("message") String msg, @Query("id") int id);
     @GET("search")
-    Observable<HttpResult<List<Subject>>> getResultByName(@Query("q") String text, @Query("start") int start, @Query("count") int count);
+    Observable<HttpResult<List<Subject>>> getResultByName(@Query("q") String text, @Query("start") int start, @Query("count") int count, @Query("apikey") String apiKey);
     @GET("search")
-    Observable<HttpResult<List<Subject>>> getResultByTag(@Query("tag") String tag, @Query("start") int start, @Query("count") int count);
+    Observable<HttpResult<List<Subject>>> getResultByTag(@Query("tag") String tag, @Query("start") int start, @Query("count") int count, @Query("apikey") String apiKey);
     @GET("subject/{id}")
-    Observable<Subject> getDetailMovie(@Path("id") String id);
+    Observable<Subject> getDetailMovie(@Path("id") String id, @Query("apikey") String apiKey);
     @POST("reset")
     Observable<ServerHttpMethod> resetPwd(@Query("id") int id, @Query("former") String former, @Query("now") String now);
     @GET("discuss")

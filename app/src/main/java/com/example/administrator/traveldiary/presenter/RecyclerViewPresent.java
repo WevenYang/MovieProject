@@ -16,6 +16,7 @@ import com.example.administrator.traveldiary.adapter.MyRecyclerViewAdapter;
 import com.example.administrator.traveldiary.adapter.WaterfallAdapter;
 import com.example.administrator.traveldiary.bean.PersonData;
 import com.example.administrator.traveldiary.bean.Subject;
+import com.example.administrator.traveldiary.config.TargetUrl;
 import com.example.administrator.traveldiary.subscribers.ProgressSubscriber;
 import com.example.administrator.traveldiary.subscribers.SubscriberOnNextListener;
 import com.example.administrator.traveldiary.util.HttpMethods;
@@ -57,7 +58,7 @@ public class RecyclerViewPresent {
                     }
                 });
             }
-        }, mContext), 0, 20);
+        }, mContext), 0, 20, TargetUrl.API_KEY);
 
     }
 
@@ -80,7 +81,7 @@ public class RecyclerViewPresent {
                     }
                 });
             }
-        }, mContext), "北京");
+        }, mContext), "北京", TargetUrl.API_KEY);
     }
 
     public void getLoadingMovie(final RecyclerView view){
@@ -100,7 +101,7 @@ public class RecyclerViewPresent {
                     }
                 });
             }
-        }, mContext), 0, 22);
+        }, mContext), 0, 22, TargetUrl.API_KEY);
     }
 
     public void getNearbyHotMovie(final RecyclerView view, String city){
@@ -120,7 +121,7 @@ public class RecyclerViewPresent {
                     }
                 });
             }
-        }, mContext), city);
+        }, mContext), city, TargetUrl.API_KEY);
     }
 
 //    public void getMovieComment(final RecyclerView view, String token){
@@ -218,7 +219,7 @@ public class RecyclerViewPresent {
                                }
                            });
                        }
-                   }, mContext), s, 0, 10);
+                   }, mContext), s, 0, 10, TargetUrl.API_KEY);
                }else{
                    HttpMethods.getInstance().getResultByTag(new ProgressSubscriber(new SubscriberOnNextListener<List<Subject>>() {
                        @Override
@@ -236,7 +237,7 @@ public class RecyclerViewPresent {
                                }
                            });
                        }
-                   }, mContext), s, 0, 10);
+                   }, mContext), s, 0, 10, TargetUrl.API_KEY);
                }
             }
         });
@@ -271,7 +272,7 @@ public class RecyclerViewPresent {
                         }
                     });
                 }
-            }, mContext), id);
+            }, mContext), id, TargetUrl.API_KEY);
     }
 
     /**
@@ -297,7 +298,7 @@ public class RecyclerViewPresent {
                 year.setText(o.getYear().toString());
                 title.setText(o.getOriginal_title().toString());
             }
-        }, mContext), id);
+        }, mContext), id, TargetUrl.API_KEY);
     }
 
 

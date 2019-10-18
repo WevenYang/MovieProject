@@ -68,7 +68,7 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.Vie
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         if (holder instanceof ViewHolder){
-            Glide.with(mContext).load(list.get(position).getImages().getSmall().toString()).bitmapTransform(new RoundedCornersTransformation(mContext, 10, 0)).into(((ViewHolder)holder).pic);
+            Glide.with(mContext).load(list.get(position).getImages().getSmall().toString()).bitmapTransform(new RoundedCornersTransformation(mContext, 15, 0)).into(((ViewHolder)holder).pic);
             ((ViewHolder)holder).title.setText(list.get(position).getTitle());
 //        Log.i("title", list.get(position).getTitle());
             if (list.get(position).getRating().getAverage() != 0){
