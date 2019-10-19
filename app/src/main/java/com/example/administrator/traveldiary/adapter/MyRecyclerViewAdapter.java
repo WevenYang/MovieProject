@@ -67,9 +67,14 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.Vie
     //将数据与界面进行绑定的操作
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
+        StringBuilder builder = new StringBuilder();
         if (holder instanceof ViewHolder){
             Glide.with(mContext).load(list.get(position).getImages().getSmall().toString()).bitmapTransform(new RoundedCornersTransformation(mContext, 15, 0)).into(((ViewHolder)holder).pic);
             ((ViewHolder)holder).title.setText(list.get(position).getTitle());
+            for (String type: list.get(position).getGenres()){
+                builder.append(type + " ");
+            }
+            ((ViewHolder)holder).movieType.setText("类型：" + builder.toString());
 //        Log.i("title", list.get(position).getTitle());
             if (list.get(position).getRating().getAverage() != 0){
                 ((ViewHolder)holder).goal.setText("" + list.get(position).getRating().getAverage());
@@ -113,13 +118,14 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.Vie
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder{
-        public TextView title, goal;
+        public TextView title, goal, movieType;
         public ImageView pic;
         public ViewHolder(View itemView, final MyItemClickListener listener) {
             super(itemView);
             title = (TextView) itemView.findViewById(R.id.movieTitle);
             goal = (TextView) itemView.findViewById(R.id.movieGoal);
             pic = (ImageView) itemView.findViewById(R.id.movieImg);
+            movieType = (TextView) itemView.findViewById(R.id.movieType);
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
