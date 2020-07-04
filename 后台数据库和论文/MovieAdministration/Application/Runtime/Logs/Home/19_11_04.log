@@ -1,0 +1,351 @@
+[ 2019-11-04T22:24:59+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/login?cellphone=123&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0148s ]
+SQL: SELECT `id` FROM `people_info` WHERE `cell_phone` = '123' AND `password` = '123' LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001297s ]
+
+[ 2019-11-04T22:24:59+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/getMovieInfos?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `people_info` WHERE ( id=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `movie_info` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `movie_info` ORDER BY id desc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2019-11-04T22:53:57+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/login?cellphone=123&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0092s ]
+SQL: SELECT `id` FROM `people_info` WHERE `cell_phone` = '123' AND `password` = '123' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2019-11-04T22:53:57+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/getMovieInfos?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0243s ]
+SQL: SELECT * FROM `people_info` WHERE ( id=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `movie_info` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `movie_info` ORDER BY id desc  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2019-11-04T22:54:08+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/login?cellphone=123&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0151s ]
+SQL: SELECT `id` FROM `people_info` WHERE `cell_phone` = '123' AND `password` = '123' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2019-11-04T22:54:08+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/getMovieInfos?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `people_info` WHERE ( id=1 )  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `movie_info` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `movie_info` ORDER BY id desc  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2019-11-04T22:56:12+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/login?cellphone=123&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002945s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0153s ]
+SQL: SELECT `id` FROM `people_info` WHERE `cell_phone` = '123' AND `password` = '123' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2019-11-04T22:56:13+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/getMovieInfos?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0253s ]
+SQL: SELECT * FROM `people_info` WHERE ( id=1 )  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `movie_info` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `movie_info` ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000985s ]
+
+[ 2019-11-04T22:56:40+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/login?cellphone=123&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012347s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0492s ]
+SQL: SELECT `id` FROM `people_info` WHERE `cell_phone` = '123' AND `password` = '123' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2019-11-04T22:56:40+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/getMovieInfos?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `people_info` WHERE ( id=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `movie_info` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `movie_info` ORDER BY id desc  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2019-11-04T23:16:22+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/login?cellphone=123&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0123s ]
+SQL: SELECT `id` FROM `people_info` WHERE `cell_phone` = '123' AND `password` = '123' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2019-11-04T23:16:23+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/getMovieInfos?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001552s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0337s ]
+SQL: SELECT * FROM `people_info` WHERE ( id=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `movie_info` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `movie_info` ORDER BY id desc  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2019-11-04T23:22:51+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/login?cellphone=123&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0202s ]
+SQL: SELECT `id` FROM `people_info` WHERE `cell_phone` = '123' AND `password` = '123' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2019-11-04T23:22:51+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/getMovieInfos?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001586s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `people_info` WHERE ( id=1 )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `movie_info` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `movie_info` ORDER BY id desc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2019-11-04T23:31:25+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/login?cellphone=123&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0093s ]
+SQL: SELECT `id` FROM `people_info` WHERE `cell_phone` = '123' AND `password` = '123' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2019-11-04T23:31:25+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/getMovieInfos?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0237s ]
+SQL: SELECT * FROM `people_info` WHERE ( id=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `movie_info` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `movie_info` ORDER BY id desc  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003003s ]
+
+[ 2019-11-04T23:33:10+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/login?cellphone=123&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0430s ]
+SQL: SELECT `id` FROM `people_info` WHERE `cell_phone` = '123' AND `password` = '123' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2019-11-04T23:33:10+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/getMovieInfos?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0185s ]
+SQL: SELECT * FROM `people_info` WHERE ( id=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `movie_info` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `movie_info` ORDER BY id desc  [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2019-11-04T23:42:58+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/login?cellphone=123&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0248s ]
+SQL: SELECT `id` FROM `people_info` WHERE `cell_phone` = '123' AND `password` = '123' LIMIT 1   [ RunTime:0.0026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2019-11-04T23:42:59+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/getMovieInfos?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0307s ]
+SQL: SELECT * FROM `people_info` WHERE ( id=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `movie_info` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `movie_info` ORDER BY id desc  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2019-11-04T23:43:34+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/login?cellphone=123&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0117s ]
+SQL: SELECT `id` FROM `people_info` WHERE `cell_phone` = '123' AND `password` = '123' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002560s ]
+
+[ 2019-11-04T23:43:34+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/getMovieInfos?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `people_info` WHERE ( id=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `movie_info` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `movie_info` ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2019-11-04T23:54:39+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/getMovieInfos?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `people_info` WHERE ( id=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `movie_info` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `movie_info` ORDER BY id desc  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2019-11-04T23:57:02+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/login?cellphone=123&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.1102s ]
+SQL: SELECT `id` FROM `people_info` WHERE `cell_phone` = '123' AND `password` = '123' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001726s ]
+
+[ 2019-11-04T23:57:02+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/getMovieInfos?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `people_info` WHERE ( id=1 )  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `movie_info` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `movie_info` ORDER BY id desc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001101s ]
+

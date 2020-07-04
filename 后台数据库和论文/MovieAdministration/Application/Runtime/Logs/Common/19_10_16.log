@@ -1,0 +1,960 @@
+[ 2019-10-16T21:57:21+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/css/amazeui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T21:57:21+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/css/admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T21:57:21+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/js/amazeui.ie8polyfill.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T21:57:22+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T21:57:22+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/js/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T21:57:22+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/js/amazeui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T21:57:22+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/js/app.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T21:57:22+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/assets/i/examples/admin-chrome.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T21:57:22+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/js/amazeui.ie8polyfill.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T21:57:22+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/assets/i/examples/admin-opera.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T21:57:22+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/assets/i/examples/admin-ie.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T21:57:22+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/assets/i/examples/admin-firefox.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T21:57:22+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/assets/i/examples/admin-safari.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T21:57:22+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/js/amazeui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T21:57:22+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/js/app.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T21:57:22+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/js/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:11:52+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:11:52+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/simple-line-icons/css/simple-line-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:11:52+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/themify-icons/themify-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001390s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:11:52+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/weather-icons/css/weather-icons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:11:52+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:11:52+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/linea-icons/linea.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001082s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:11:52+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/assets/images/custom-select.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+ERR: 无法加载模块:Assets
+
+[ 2019-10-16T22:12:08+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/weather-icons/css/weather-icons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:12:08+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/simple-line-icons/css/simple-line-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:12:08+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/linea-icons/linea.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:12:08+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:12:08+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/themify-icons/themify-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:12:08+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:12:17+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+ERR: 无法加载模块:Public
+
+ic
+
+[ 2019-10-16T22:12:17+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/weather-icons/css/weather-icons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:12:17+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/linea-icons/linea.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:12:17+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/themify-icons/themify-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:12:17+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/flag-icon-css/flag-icon.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:12:17+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:12:18+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/assets/images/custom-select.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+ERR: 无法加载模块:Assets
+
+[ 2019-10-16T22:12:24+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/simple-line-icons/css/simple-line-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:12:24+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/weather-icons/css/weather-icons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:12:24+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:12:24+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/themify-icons/themify-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:12:24+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/linea-icons/linea.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:12:24+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:16:08+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:16:08+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/linea-icons/linea.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:16:08+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/flag-icon-css/flag-icon.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:16:08+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/simple-line-icons/css/simple-line-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:16:08+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/weather-icons/css/weather-icons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:16:08+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:19:05+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/flag-icon-css/flag-icon.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:19:05+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:19:05+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/simple-line-icons/css/simple-line-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:19:05+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/weather-icons/css/weather-icons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:19:05+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/linea-icons/linea.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:19:05+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/themify-icons/themify-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:19:05+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:19:42+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:19:42+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/flag-icon-css/flag-icon.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:19:42+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/themify-icons/themify-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:19:42+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/linea-icons/linea.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+ERR: 无法加载模块:Public
+
+�模块:Public
+
+[ 2019-10-16T22:19:42+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/simple-line-icons/css/simple-line-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001728s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:19:42+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:20:24+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/simple-line-icons/css/simple-line-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:20:24+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/linea-icons/linea.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+ERR: 无法加载模块:Public
+
+��块:Public
+
+[ 2019-10-16T22:20:24+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/weather-icons/css/weather-icons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:20:24+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/themify-icons/themify-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:20:24+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/flag-icon-css/flag-icon.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:20:24+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:20:26+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:20:26+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/weather-icons/css/weather-icons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:20:26+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/simple-line-icons/css/simple-line-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:20:26+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/themify-icons/themify-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:20:26+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/flag-icon-css/flag-icon.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:20:26+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:20:26+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/linea-icons/linea.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:20:27+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/simple-line-icons/css/simple-line-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:20:27+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:20:27+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/weather-icons/css/weather-icons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:20:27+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/linea-icons/linea.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:20:27+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/themify-icons/themify-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:20:27+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/flag-icon-css/flag-icon.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:20:27+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:20:27+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:20:27+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/linea-icons/linea.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:20:27+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/themify-icons/themify-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+ERR: 无法加载模块:Public
+
+blic
+
+[ 2019-10-16T22:20:27+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:20:27+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/simple-line-icons/css/simple-line-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:21:34+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:21:34+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/simple-line-icons/css/simple-line-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:21:34+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/weather-icons/css/weather-icons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:21:34+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/linea-icons/linea.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:21:34+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:21:34+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/themify-icons/themify-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:21:34+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/flag-icon-css/flag-icon.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:22:10+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:22:10+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/simple-line-icons/css/simple-line-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:22:11+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/weather-icons/css/weather-icons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:22:11+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/flag-icon-css/flag-icon.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:22:11+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:22:11+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/themify-icons/themify-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:22:13+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:22:15+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/weather-icons/css/weather-icons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:22:15+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/linea-icons/linea.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+ERR: 无法加载模块:Public
+
+��块:Public
+
+[ 2019-10-16T22:22:15+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/simple-line-icons/css/simple-line-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:22:15+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:24:23+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:24:23+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/simple-line-icons/css/simple-line-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:24:23+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/themify-icons/themify-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:24:23+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/linea-icons/linea.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:24:23+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/flag-icon-css/flag-icon.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:24:23+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:24:23+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/weather-icons/css/weather-icons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:25:37+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/simple-line-icons/css/simple-line-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:25:37+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:25:37+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/weather-icons/css/weather-icons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:25:37+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/linea-icons/linea.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:25:37+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:25:37+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/themify-icons/themify-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T22:25:37+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/flag-icon-css/flag-icon.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:47:12+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:47:12+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:47:12+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/themify-icons/themify-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:47:12+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/linea-icons/linea.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+ERR: 无法加载模块:Public
+
+��载模块:Public
+
+[ 2019-10-16T23:47:12+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/weather-icons/css/weather-icons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:47:12+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/flag-icon-css/flag-icon.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:55:06+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:55:06+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/simple-line-icons/css/simple-line-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:55:06+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/weather-icons/css/weather-icons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:55:06+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/flag-icon-css/flag-icon.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:55:06+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:55:06+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/linea-icons/linea.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:55:06+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/themify-icons/themify-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:55:07+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/linea-icons/linea.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:55:07+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/themify-icons/themify-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:55:07+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/flag-icon-css/flag-icon.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:55:07+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:55:08+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/simple-line-icons/css/simple-line-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:55:08+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:55:08+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/weather-icons/css/weather-icons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:55:18+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:55:18+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/simple-line-icons/css/simple-line-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:55:18+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/weather-icons/css/weather-icons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:55:18+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/themify-icons/themify-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:55:18+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/flag-icon-css/flag-icon.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:55:18+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003305s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:55:18+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/linea-icons/linea.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:55:19+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/simple-line-icons/css/simple-line-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:55:19+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/themify-icons/themify-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:55:19+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/flag-icon-css/flag-icon.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:55:19+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:55:19+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:55:19+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/weather-icons/css/weather-icons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001199s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:56:09+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:56:09+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/simple-line-icons/css/simple-line-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:56:09+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/linea-icons/linea.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:56:09+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/flag-icon-css/flag-icon.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:56:09+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/themify-icons/themify-icons.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:56:09+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/weather-icons/css/weather-icons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+ERR: 无法加载模块:Public
+
+[ 2019-10-16T23:56:09+08:00 ] ::1 /dashboard/www/Thinkphp3.2/RollCall/Public/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+ERR: 无法加载模块:Public
+

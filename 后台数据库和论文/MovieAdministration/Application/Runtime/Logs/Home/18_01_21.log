@@ -1,0 +1,1209 @@
+[ 2018-01-21T12:02:47+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.1218s ]
+SQL: SELECT * FROM borrow as a INNER JOIN repair as b   [ RunTime:0.0279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005948s ]
+
+[ 2018-01-21T12:21:53+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `borrow` INNER JOIN repair as b   [ RunTime:0.0099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2018-01-21T12:21:53+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `borrow` INNER JOIN repair as b   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2018-01-21T12:21:55+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `borrow` INNER JOIN repair as b   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2018-01-21T12:21:55+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `borrow` INNER JOIN repair as b   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2018-01-21T12:21:55+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `borrow` INNER JOIN repair as b   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2018-01-21T12:21:55+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `borrow` INNER JOIN repair as b   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2018-01-21T12:21:55+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `borrow` INNER JOIN repair as b   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2018-01-21T12:22:03+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0123s ]
+SQL: SELECT * FROM repair as b  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2018-01-21T12:22:04+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0137s ]
+SQL: SELECT * FROM repair as b  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2018-01-21T12:22:04+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0121s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0120s ]
+SQL: SELECT * FROM repair as b  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2018-01-21T12:22:05+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001630s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0101s ]
+SQL: SELECT * FROM repair as b  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2018-01-21T12:22:05+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0118s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0124s ]
+SQL: SELECT * FROM repair as b  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2018-01-21T12:22:05+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0125s ]
+SQL: SELECT * FROM repair as b  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2018-01-21T12:22:05+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0122s ]
+SQL: SELECT * FROM repair as b  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2018-01-21T12:22:05+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0116s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0131s ]
+SQL: SELECT * FROM repair as b  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000395s ]
+
+[ 2018-01-21T12:22:06+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0197s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0109s ]
+SQL: SELECT * FROM repair as b  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2018-01-21T12:22:06+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0105s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0127s ]
+SQL: SELECT * FROM repair as b  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2018-01-21T12:22:06+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0131s ]
+SQL: SELECT * FROM repair as b  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2018-01-21T12:22:06+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0119s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0131s ]
+SQL: SELECT * FROM repair as b  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2018-01-21T12:22:06+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0117s ]
+SQL: SELECT * FROM repair as b  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2018-01-21T12:22:07+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0123s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0130s ]
+SQL: SELECT * FROM repair as b  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2018-01-21T12:22:07+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0129s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0117s ]
+SQL: SELECT * FROM repair as b  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2018-01-21T12:22:07+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0118s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0122s ]
+SQL: SELECT * FROM repair as b  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2018-01-21T12:22:07+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0247s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0543s ]
+SQL: SELECT * FROM repair as b  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000372s ]
+
+[ 2018-01-21T12:22:07+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0128s ]
+SQL: SELECT * FROM repair as b  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2018-01-21T12:23:02+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0109s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0116s ]
+SQL: SELECT * FROM repair as b  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001355s ]
+
+[ 2018-01-21T12:23:03+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0104s ]
+SQL: SELECT * FROM repair as b  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001386s ]
+
+[ 2018-01-21T12:23:03+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002356s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0121s ]
+SQL: SELECT * FROM repair as b  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001484s ]
+
+[ 2018-01-21T12:23:03+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0137s ]
+SQL: SELECT * FROM repair as b  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001315s ]
+
+[ 2018-01-21T12:23:16+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0114s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001928s ]
+
+[ 2018-01-21T12:23:16+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001594s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001305s ]
+
+[ 2018-01-21T12:23:17+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0105s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001970s ]
+
+[ 2018-01-21T12:23:17+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001694s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002258s ]
+
+[ 2018-01-21T12:23:17+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0115s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001337s ]
+
+[ 2018-01-21T12:23:17+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0109s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001509s ]
+
+[ 2018-01-21T12:26:23+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0106s ]
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+
+[ 2018-01-21T12:32:55+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0098s ]
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+
+[ 2018-01-21T12:32:56+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0094s ]
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+
+[ 2018-01-21T12:32:56+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0111s ]
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+
+[ 2018-01-21T12:32:56+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0109s ]
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+
+[ 2018-01-21T12:32:57+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0206s ]
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+
+[ 2018-01-21T12:32:57+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0114s ]
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+
+[ 2018-01-21T12:32:57+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0109s ]
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+
+[ 2018-01-21T12:32:57+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0118s ]
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+
+[ 2018-01-21T12:32:57+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0117s ]
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+
+[ 2018-01-21T12:32:58+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0117s ]
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+
+[ 2018-01-21T14:44:25+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0216s ]
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+
+[ 2018-01-21T14:44:26+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0138s ]
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+
+[ 2018-01-21T14:48:00+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getBorrowOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `borrow`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016877s ]
+
+[ 2018-01-21T14:48:01+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0123s ]
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+
+[ 2018-01-21T15:03:34+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0170s ]
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+
+[ 2018-01-21T15:03:34+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0099s ]
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+
+[ 2018-01-21T15:03:35+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0123s ]
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+
+[ 2018-01-21T15:03:35+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.1316s ]
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+ERR: 1066:Not unique table/alias: 'borrow'
+ [ SQL语句 ] : SELECT * FROM `borrow` INNER JOIN borrow INNER JOIN repair INNER JOIN borrow INNER JOIN dump INNER JOIN hitch INNER JOIN purchase  
+
+[ 2018-01-21T15:04:18+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `borrow` INNER JOIN borrow as a INNER JOIN repair as b INNER JOIN borrow as c INNER JOIN dump as d INNER JOIN hitch as e INNER JOIN purchase as f   [ RunTime:0.0366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2018-01-21T15:28:34+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0492s ]
+SQL: SELECT * FROM `borrow`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `purchase`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `dump`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0459s ]
+SQL: SELECT * FROM `hitch`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0217s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2018-01-21T16:33:34+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/allMachine?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.052560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.227010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.227091s ]
+SQL: SHOW COLUMNS FROM `machinelist` [ RunTime:0.3647s ]
+SQL: SELECT * FROM `machinelist`  [ RunTime:0.0943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.042486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.042613s ]
+
+[ 2018-01-21T16:34:00+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/allMachine?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `machinelist` [ RunTime:0.0609s ]
+SQL: SELECT * FROM `machinelist`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2018-01-21T17:09:07+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/allMachine?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `machinelist` [ RunTime:0.0956s ]
+SQL: SELECT * FROM `machinelist`  [ RunTime:0.1054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007269s ]
+
+[ 2018-01-21T17:09:57+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/allMachine?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `machinelist` [ RunTime:0.0515s ]
+SQL: SELECT * FROM `machinelist`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2018-01-21T17:10:01+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getPurchaseOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0586s ]
+SQL: SELECT * FROM `purchase`  [ RunTime:0.0200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2018-01-21T17:37:05+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.048555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.086708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.086764s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.1616s ]
+SQL: SELECT * FROM `borrow`  [ RunTime:0.0166s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `purchase`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.1028s ]
+SQL: SELECT * FROM `dump`  [ RunTime:0.0168s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `hitch`  [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0772s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001330s ]
+
+[ 2018-01-21T17:38:01+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getPurchaseOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `purchase`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2018-01-21T17:38:04+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/allMachine?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `machinelist` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `machinelist`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001409s ]
+
+[ 2018-01-21T17:55:22+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0289s ]
+SQL: SELECT * FROM `borrow`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `purchase`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `dump`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `hitch`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2018-01-21T17:59:11+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `borrow`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `purchase`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `dump`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `hitch`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000681s ]
+
+[ 2018-01-21T17:59:48+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getPurchaseOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0316s ]
+SQL: SELECT * FROM `purchase`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2018-01-21T17:59:54+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/allMachine?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020859s ]
+SQL: SHOW COLUMNS FROM `machinelist` [ RunTime:0.0204s ]
+SQL: SELECT * FROM `machinelist`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2018-01-21T22:36:13+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031352s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.1270s ]
+SQL: SELECT * FROM `borrow`  [ RunTime:0.0255s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `purchase`  [ RunTime:0.0403s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `dump`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `hitch`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.037453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.037523s ]
+
+[ 2018-01-21T22:51:58+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005140s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `borrow`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `purchase`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0321s ]
+SQL: SELECT * FROM `dump`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.1641s ]
+SQL: SELECT * FROM `hitch`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2018-01-21T23:03:05+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002949s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0314s ]
+SQL: SELECT * FROM `borrow`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0861s ]
+SQL: SELECT * FROM `purchase`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0992s ]
+SQL: SELECT * FROM `dump`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0588s ]
+SQL: SELECT * FROM `hitch`  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0628s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2018-01-21T23:16:04+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000221s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0813s ]
+SQL: SELECT * FROM `borrow`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `purchase`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `dump`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `hitch`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018794s ]
+
+[ 2018-01-21T23:18:47+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `borrow`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `purchase`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `dump`  [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `hitch`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2018-01-21T23:19:29+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `borrow`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `purchase`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `dump`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `hitch`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2018-01-21T23:20:38+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0542s ]
+SQL: SELECT * FROM `borrow`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0387s ]
+SQL: SELECT * FROM `purchase`  [ RunTime:0.1637s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `dump`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `hitch`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2018-01-21T23:21:17+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `borrow`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0389s ]
+SQL: SELECT * FROM `purchase`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0474s ]
+SQL: SELECT * FROM `dump`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0475s ]
+SQL: SELECT * FROM `hitch`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0492s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2018-01-21T23:22:53+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0227s ]
+SQL: SELECT * FROM `borrow`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `purchase`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0311s ]
+SQL: SELECT * FROM `dump`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `hitch`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2018-01-21T23:24:29+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `borrow`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `purchase`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `dump`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `hitch`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2018-01-21T23:25:07+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0323s ]
+SQL: SELECT * FROM `borrow`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0414s ]
+SQL: SELECT * FROM `purchase`  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0670s ]
+SQL: SELECT * FROM `dump`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0496s ]
+SQL: SELECT * FROM `hitch`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2018-01-21T23:25:24+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0336s ]
+SQL: SELECT * FROM `borrow`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0497s ]
+SQL: SELECT * FROM `purchase`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0242s ]
+SQL: SELECT * FROM `dump`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0558s ]
+SQL: SELECT * FROM `hitch`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0326s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006324s ]
+

@@ -1,12 +1,14 @@
 <resources>
-    <string name="app_name">上影</string>
+    <string name="app_name">分享</string>
     <string name="input">输入影名、演员名或者类型</string>
     <string name="login">登录</string>
     <string name="register">注册</string>
     <string name="forget">忘记密码</string>
     <string name="home">首页</string>
     <string name="comment">影评圈</string>
-    <string name="nearby">周边影讯</string>
+    <string name="hot_movie">热门电影</string>
+    <string name="loading_movie">待映电影</string>
+    <string name="best_movie">经典电影</string>
     <string name="setting">设置</string>
     <string name="person_setting">个人设置</string>
     <string name="my_data">我的资料</string>

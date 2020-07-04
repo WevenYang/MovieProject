@@ -1,0 +1,231 @@
+[ 2018-01-19T22:24:07+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.077457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.043372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.043441s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.3177s ]
+SQL: SELECT * FROM borrow as a INNER JOIN repair as b   [ RunTime:0.3089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.126944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.127082s ]
+
+[ 2018-01-19T22:26:37+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/argreeTheOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005697s ]
+ERR: 非法操作:argreeTheOrder
+
+[ 2018-01-19T22:26:52+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getDataCalc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0231s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `borrow` LIMIT 1   [ RunTime:0.0123s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0449s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dump` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0287s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hitch` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0105s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `purchase` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `repair` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `mymachine` [ RunTime:0.0394s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mymachine` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007361s ]
+
+[ 2018-01-19T22:27:09+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/myMachine?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `mymachine` [ RunTime:0.0187s ]
+SQL: SELECT * FROM `mymachine`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2018-01-19T22:27:13+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getDataCalc?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0342s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `borrow` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0225s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dump` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0210s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hitch` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0094s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `purchase` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0558s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `repair` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mymachine` [ RunTime:0.0223s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mymachine` LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2018-01-19T22:31:36+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/myMachine?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `mymachine` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `mymachine`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003468s ]
+
+[ 2018-01-19T22:31:40+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/myMachine?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `mymachine` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `mymachine`  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001402s ]
+
+[ 2018-01-19T22:31:44+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getDataCalc?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0356s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `borrow` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0205s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dump` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0172s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hitch` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0157s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `purchase` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0115s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `repair` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mymachine` [ RunTime:0.0143s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mymachine` LIMIT 1   [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001143s ]
+
+[ 2018-01-19T22:36:15+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getDataCalc?types=-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0125s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `borrow` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dump` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0118s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hitch` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0138s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `purchase` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `repair` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `mymachine` [ RunTime:0.0113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mymachine` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001389s ]
+
+[ 2018-01-19T22:36:41+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/agreeTheOrder?id=1&types=-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0095s ]
+SQL: UPDATE `purchase` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0835s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2018-01-19T22:37:23+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/agreeTheOrder?id=1&types=-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0086s ]
+SQL: UPDATE `purchase` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2018-01-19T22:37:24+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/agreeTheOrder?id=1&types=-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0077s ]
+SQL: UPDATE `purchase` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2018-01-19T22:37:33+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/agreeTheOrder?id=1&types=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0107s ]
+SQL: UPDATE `purchase` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2018-01-19T22:37:47+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/agreeTheOrder?id=1&types=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0123s ]
+SQL: UPDATE `purchase` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2018-01-19T22:38:03+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/agreeTheOrder?id=6&types=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0133s ]
+SQL: UPDATE `purchase` SET `status`='0' WHERE `id` = 6 [ RunTime:0.0633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000624s ]
+

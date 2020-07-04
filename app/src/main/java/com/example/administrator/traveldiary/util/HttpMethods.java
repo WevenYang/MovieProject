@@ -1,6 +1,7 @@
 package com.example.administrator.traveldiary.util;
 
 import com.example.administrator.traveldiary.bean.HttpResult;
+import com.example.administrator.traveldiary.bean.PersonData;
 import com.example.administrator.traveldiary.bean.ServerHttpMethod;
 import com.example.administrator.traveldiary.bean.Subject;
 import com.example.administrator.traveldiary.config.TargetUrl;
@@ -19,9 +20,6 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Func1;
 import rx.schedulers.Schedulers;
 
-/**
- * Created by liukun on 16/3/9.
- */
 public class HttpMethods {
 
     private static final int DEFAULT_TIMEOUT = 5;
@@ -30,7 +28,7 @@ public class HttpMethods {
     private MovieService movieService;
 
     //构造方法私有
-    private HttpMethods() {
+    private HttpMethods(String path) {
         //手动创建一个OkHttpClient并设置超时时间
         OkHttpClient.Builder builder = new OkHttpClient.Builder();
         builder.connectTimeout(DEFAULT_TIMEOUT, TimeUnit.SECONDS);
@@ -39,7 +37,7 @@ public class HttpMethods {
                 .client(builder.build())
                 .addConverterFactory(GsonConverterFactory.create())
                 .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
-                .baseUrl(TargetUrl.DOUBAN_BASE_URL)
+                .baseUrl(path)
                 .build();
 
         movieService = retrofit.create(MovieService.class);
@@ -51,9 +49,12 @@ public class HttpMethods {
 //    }
 
     //获取单例
-    public static HttpMethods getInstance(){
-//        return SingletonHolder.INSTANCE;
-        return new HttpMethods();
+    public static HttpMethods getInstance(int type){
+        if (type == 0){
+            return new HttpMethods(TargetUrl.DOUBAN_BASE_URL);
+        }else {
+            return new HttpMethods(TargetUrl.BASE_URL);
+        }
     }
 
     /**
@@ -82,8 +83,8 @@ public class HttpMethods {
      * @param subscriber    由调用者传过来的观察者对象
      * @param city  城市
      */
-    public void getHotMovie(Subscriber<List<Subject>> subscriber, String city, String key){
-        Observable observable = movieService.getHotMovie(city, key)
+    public void getHotMovie(Subscriber<List<Subject>> subscriber, String city, int index, int count, String key){
+        Observable observable = movieService.getHotMovie(city, index, count, key)
                 .map(new HttpResultFunc<List<Subject>>());
         toSubscribe(observable, subscriber);
     }
@@ -131,6 +132,16 @@ public class HttpMethods {
      */
     public void getDetailMovie(Subscriber<Subject> subscriber, String id, String key){
         Observable observable = movieService.getDetailMovie(id, key);
+        toSubscribe(observable, subscriber);
+    }
+
+    public void getMovieCommentsList(Subscriber<Subject> subscriber, String id){
+        Observable observable = movieService.getAllComments(Integer.valueOf(id));
+        toSubscribe(observable, subscriber);
+    }
+
+    public void getCommentDetailInfo(Subscriber<Subject> subscriber, String movie_id){
+        Observable observable = movieService.getCommentsDetail(movie_id);
         toSubscribe(observable, subscriber);
     }
 

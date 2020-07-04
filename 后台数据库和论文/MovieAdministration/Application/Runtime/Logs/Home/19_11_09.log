@@ -1,0 +1,160 @@
+[ 2019-11-09T17:51:28+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/login?cellphone=123&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `people_info` WHERE `cell_phone` = '123' AND `password` = '123'  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001099s ]
+
+[ 2019-11-09T17:51:28+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/getMovieInfos?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `people_info` WHERE ( id=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `movie_info` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `movie_info` ORDER BY id desc  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2019-11-09T17:58:04+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/login?cellphone=123&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `people_info` WHERE `cell_phone` = '123' AND `password` = '123'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000924s ]
+
+[ 2019-11-09T17:58:04+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/getMovieInfos?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `people_info` WHERE ( id=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `movie_info` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `movie_info` ORDER BY id desc  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2019-11-09T17:59:49+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/login?cellphone=123&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0306s ]
+SQL: SELECT * FROM `people_info` WHERE `cell_phone` = '123' AND `password` = '123'  [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001143s ]
+
+[ 2019-11-09T17:59:49+08:00 ] 192.168.1.10 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/getMovieInfos?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `people_info` WHERE ( id=1 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `movie_info` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `movie_info` ORDER BY id desc  [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001189s ]
+
+[ 2019-11-09T21:29:15+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/getPeopleComments?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+ERR: 无法加载控制器:GetPeopleComments
+
+[ 2019-11-09T21:29:37+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/Index/getPeopleComments?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `movie_comment` [ RunTime:0.0087s ]
+ERR: 1054:Unknown column 'comment_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `movie_comment` WHERE `comment_id` = '' 
+ERR: 1054:Unknown column 'comment_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `movie_comment` WHERE `comment_id` = '' 
+
+[ 2019-11-09T21:30:11+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/Index/getPeopleComments?comment_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `movie_comment` [ RunTime:0.0064s ]
+ERR: 1054:Unknown column 'comment_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `movie_comment` WHERE `comment_id` = '1' 
+ERR: 1054:Unknown column 'comment_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `movie_comment` WHERE `comment_id` = '1' 
+
+[ 2019-11-09T21:52:03+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/Index/getPeopleComments?comment_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `movie_comment` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: id F:\NewXampp\htdocs\dashboard\www\Thinkphp3.2\MovieAdministration\ThinkPHP\Library\Think\Model.class.php 第 686 行.
+SQL: SELECT * FROM `movie_comment` WHERE `id` = '1' AND `id` = 0  [ RunTime:0.0243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000797s ]
+
+[ 2019-11-09T21:53:20+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/Index/getPeopleComments?comment_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `movie_comment` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: id F:\NewXampp\htdocs\dashboard\www\Thinkphp3.2\MovieAdministration\ThinkPHP\Library\Think\Model.class.php 第 686 行.
+SQL: SELECT * FROM `movie_comment` WHERE `id` = '1' AND `id` = 0  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2019-11-09T21:54:20+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/Index/getPeopleComments?comment_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `movie_comment` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `movie_comment` WHERE `id` = 1  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+

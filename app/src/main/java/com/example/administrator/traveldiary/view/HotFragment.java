@@ -34,13 +34,13 @@ public class HotFragment extends Fragment {
         view = inflater.inflate(R.layout.hot, null);
         present = new RecyclerViewPresent(this.getContext());
         initRecyclerView();
-        mSwipeRefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
-            @Override
-            public void onRefresh() {
-                present.getHotMovie(recycler);
-                mSwipeRefresh.setRefreshing(false);
-            }
-        });
+//        mSwipeRefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+//            @Override
+//            public void onRefresh() {
+//                present.getHotMovie(recycler);
+//                mSwipeRefresh.setRefreshing(false);
+//            }
+//        });
 
         return view;
     }
@@ -48,7 +48,7 @@ public class HotFragment extends Fragment {
     public void initRecyclerView(){
         recycler = (RecyclerView) view.findViewById(R.id.recycler);
         mSwipeRefresh = (SwipeRefreshLayout) view.findViewById(R.id.refresh);
-        present.getHotMovie(recycler);
+//        present.getHotMovie(recycler);
     }
 
 }

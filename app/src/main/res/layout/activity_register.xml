@@ -36,29 +36,29 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/account"
-                android:hint="昵称"
-                android:text="123"/>
+                android:hint="手机号"
+                />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/password"
                 android:hint="密码"
-                android:text="123"/>
+                />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/sure"
                 android:hint="再输入一遍密码"
-                android:text="123"/>
+                />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/number"
-                android:hint="手机号码"
-                android:text="123"/>
+                android:id="@+id/nick"
+                android:hint="昵称"
+                />
 
             <LinearLayout
                 android:layout_width="match_parent"

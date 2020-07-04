@@ -1,0 +1,13 @@
+[ 2018-01-12T23:11:15+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getRepairOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.1324s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008743s ]
+

@@ -1,0 +1,265 @@
+[ 2018-01-18T23:15:10+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getDataCalc?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.2295s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `borrow` LIMIT 1   [ RunTime:0.0154s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0662s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dump` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0213s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hitch` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0202s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `purchase` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0707s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `repair` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `mymachine` [ RunTime:0.0298s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mymachine` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.035271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.035394s ]
+
+[ 2018-01-18T23:20:26+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getDataCalc?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0121s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `borrow` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dump` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0173s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hitch` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0177s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `purchase` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0152s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `repair` LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `mymachine` [ RunTime:0.0171s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mymachine` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2018-01-18T23:24:45+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getDataCalc?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0192s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `borrow` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0176s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dump` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0236s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hitch` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0253s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `purchase` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0304s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `repair` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mymachine` [ RunTime:0.0134s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mymachine` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2018-01-18T23:29:52+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getPurchaseOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0555s ]
+SQL: SELECT * FROM `purchase`  [ RunTime:0.0081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2018-01-18T23:35:58+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getDataCalc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `borrow` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0138s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dump` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0174s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hitch` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0159s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `purchase` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0126s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `repair` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `mymachine` [ RunTime:0.0108s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mymachine` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2018-01-18T23:39:27+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getDataCalc?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0478s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `borrow` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0257s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dump` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0287s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hitch` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0162s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `purchase` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0171s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `repair` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mymachine` [ RunTime:0.0135s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mymachine` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2018-01-18T23:41:11+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getDataCalc?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0263s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `borrow` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dump` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0115s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hitch` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0139s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `purchase` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0243s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `repair` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `mymachine` [ RunTime:0.0106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mymachine` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2018-01-18T23:43:16+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getDataCalc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0221s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `borrow` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0258s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dump` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0209s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hitch` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0195s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `purchase` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0194s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `repair` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `mymachine` [ RunTime:0.0125s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mymachine` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2018-01-18T23:50:06+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0106s ]
+SQL: SELECT * FROM borrow as a INNER JOIN repair as b  WHERE ( a.id = 1 )  [ RunTime:0.0300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2018-01-18T23:51:04+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0104s ]
+SQL: SELECT * FROM borrow as a INNER JOIN repair as b   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000797s ]
+
+[ 2018-01-18T23:51:04+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0091s ]
+SQL: SELECT * FROM borrow as a INNER JOIN repair as b   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2018-01-18T23:51:05+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0101s ]
+SQL: SELECT * FROM borrow as a INNER JOIN repair as b   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2018-01-18T23:51:05+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0099s ]
+SQL: SELECT * FROM borrow as a INNER JOIN repair as b   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000661s ]
+
+[ 2018-01-18T23:51:05+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0131s ]
+SQL: SELECT * FROM borrow as a INNER JOIN repair as b   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2018-01-18T23:54:19+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getPurchaseOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001527s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `purchase`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+

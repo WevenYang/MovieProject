@@ -1,0 +1,73 @@
+<block name="adminContent">
+    <head>
+        <base href="__PUBLIC__/">
+        <link rel="stylesheet" href="css/pintuer.css">
+        <link rel="stylesheet" href="css/admin.css">
+    </head>
+    <form method="post" action="">
+        <div class="panel admin-panel">
+            <div class="panel-head"><strong class="icon-reorder"> 用户管理</strong></div>
+            <table class="table table-hover text-center">
+                <tr>
+                    <th width="120">ID</th>
+                    <th>姓名</th>
+                    <th>手机号</th>
+                    <th>性别</th>
+                    <th>注册时间</th>
+                    <th width="25%">简介</th>
+                </tr>
+                <foreach name="getInfo" item="infos">
+                    <tr>
+                        <td>{$infos.p_id}</td>
+                        <td>{$infos.nick_name}</td>
+                        <td>{$infos.cell_phone}</td>
+                        <td>{$infos.sex}</td>
+                        <td>{$infos.date}</td>
+                        <td>{$infos.introduce}</td>
+                   </tr>
+                </foreach>
+            </table>
+        </div>
+    </form>
+
+</block>
+
+<block name="AddScript">
+    <script type="text/javascript">
+
+        function del(id){
+            if(confirm("您确定要删除吗?")){
+
+            }
+        }
+
+        $("#checkall").click(function(){
+            $("input[name='id[]']").each(function(){
+                if (this.checked) {
+                    this.checked = false;
+                }
+                else {
+                    this.checked = true;
+                }
+            });
+        })
+
+        function DelSelect(){
+            var Checkbox=false;
+            $("input[name='id[]']").each(function(){
+                if (this.checked==true) {
+                    Checkbox=true;
+                }
+            });
+            if (Checkbox){
+                var t=confirm("您确认要删除选中的内容吗？");
+                if (t==false) return false;
+            }
+            else{
+                alert("请选择您要删除的内容!");
+                return false;
+            }
+        }
+
+    </script>
+</block>

@@ -1,0 +1,91 @@
+[ 2019-10-30T00:02:58+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/login?cellphone=%22123%22&password=%22123%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0098s ]
+SQL: SELECT `id` FROM `people_info` WHERE `cell_phone` = '&quot;123&quot;' AND `password` = '&quot;123&quot;' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000966s ]
+
+[ 2019-10-30T00:02:58+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/login?cellphone=%22123%22&password=%22123%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0069s ]
+SQL: SELECT `id` FROM `people_info` WHERE `cell_phone` = '&quot;123&quot;' AND `password` = '&quot;123&quot;' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2019-10-30T00:02:59+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/login?cellphone=%22123%22&password=%22123%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0085s ]
+SQL: SELECT `id` FROM `people_info` WHERE `cell_phone` = '&quot;123&quot;' AND `password` = '&quot;123&quot;' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000681s ]
+
+[ 2019-10-30T00:02:59+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/login?cellphone=%22123%22&password=%22123%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0080s ]
+SQL: SELECT `id` FROM `people_info` WHERE `cell_phone` = '&quot;123&quot;' AND `password` = '&quot;123&quot;' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2019-10-30T00:02:59+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/login?cellphone=%22123%22&password=%22123%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0078s ]
+SQL: SELECT `id` FROM `people_info` WHERE `cell_phone` = '&quot;123&quot;' AND `password` = '&quot;123&quot;' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2019-10-30T00:02:59+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/login?cellphone=%22123%22&password=%22123%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0073s ]
+SQL: SELECT `id` FROM `people_info` WHERE `cell_phone` = '&quot;123&quot;' AND `password` = '&quot;123&quot;' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2019-10-30T23:29:36+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/login?cellphone=123&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0063s ]
+SQL: SELECT `id` FROM `people_info` WHERE `cell_phone` = '123' AND `password` = '123' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+

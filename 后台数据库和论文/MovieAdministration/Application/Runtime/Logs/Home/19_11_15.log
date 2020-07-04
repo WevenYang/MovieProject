@@ -1,0 +1,54 @@
+[ 2019-11-15T23:41:52+08:00 ] 192.168.1.8 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/login?cellphone=123&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0815s ]
+SQL: SELECT * FROM `people_info` WHERE `cell_phone` = '123' AND `password` = '123'  [ RunTime:0.0067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001013s ]
+
+[ 2019-11-15T23:41:53+08:00 ] 192.168.1.8 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/getMovieInfos?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `people_info` [ RunTime:0.0512s ]
+SQL: SELECT * FROM `people_info` WHERE ( p_id=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `movie_info` [ RunTime:0.0184s ]
+SQL: SELECT * FROM movie_info t left join people_info as o on t.author_id = o.p_id  ORDER BY t.id desc  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2019-11-15T23:41:55+08:00 ] 192.168.1.8 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/getPeopleComments?comment_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `movie_comment` [ RunTime:0.0519s ]
+SQL: SELECT * FROM movie_comment t left join people_info as o on t.author_id = o.p_id  WHERE `info_id` = '1'  [ RunTime:0.0235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001776s ]
+
+[ 2019-11-15T23:42:00+08:00 ] 192.168.1.8 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/getPeopleComments?comment_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `movie_comment` [ RunTime:0.0203s ]
+SQL: SELECT * FROM movie_comment t left join people_info as o on t.author_id = o.p_id  WHERE `info_id` = '2'  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+

@@ -6,8 +6,8 @@ package com.example.administrator.traveldiary.bean;
 public class ServerHttpMethod<T> {
     private int code;
     private String token;
-    private String result;
-    private T data;
+    private String result;  private T data;
+
 
     public int getCode() {
         return code;

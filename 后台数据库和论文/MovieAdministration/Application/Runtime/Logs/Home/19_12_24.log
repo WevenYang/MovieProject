@@ -1,0 +1,117 @@
+[ 2019-12-24T00:00:27+08:00 ] 192.168.1.8 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/getPeopleComments?comment_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `movie_comment` [ RunTime:0.0150s ]
+SQL: SELECT * FROM movie_comment t left join people_info as o on t.author_id = o.p_id  WHERE `info_id` = '6'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2019-12-24T00:02:54+08:00 ] 192.168.1.8 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/getPeopleComments?comment_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `movie_comment` [ RunTime:0.0676s ]
+SQL: SELECT * FROM movie_comment t left join people_info as o on t.author_id = o.p_id  WHERE `info_id` = '6'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001399s ]
+
+[ 2019-12-24T00:04:33+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/Login/getPeopleComments?comment_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+ERR: 非法操作:getPeopleComments
+
+[ 2019-12-24T00:04:45+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/Index/getPeopleComments?comment_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `movie_comment` [ RunTime:0.0833s ]
+SQL: SELECT * FROM movie_comment t left join people_info as o on t.author_id = o.p_id  WHERE `info_id` = '6'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2019-12-24T00:05:45+08:00 ] 192.168.1.8 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/getPeopleComments?comment_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `movie_comment` [ RunTime:0.0129s ]
+SQL: SELECT * FROM movie_comment t left join people_info as o on t.author_id = o.p_id  WHERE `info_id` = '6'  [ RunTime:0.0007s ]
+NOTIC: [2] Use of undefined constant truev - assumed 'truev' (this will throw an Error in a future version of PHP) F:\NewXampp\htdocs\dashboard\www\Thinkphp3.2\MovieAdministration\Application\Home\Controller\IndexController.class.php 第 150 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2019-12-24T00:05:49+08:00 ] 192.168.1.8 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/getPeopleComments?comment_id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `movie_comment` [ RunTime:0.0146s ]
+SQL: SELECT * FROM movie_comment t left join people_info as o on t.author_id = o.p_id  WHERE `info_id` = '7'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2019-12-24T00:06:02+08:00 ] 192.168.1.8 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/getPeopleComments?comment_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+SQL: SHOW COLUMNS FROM `movie_comment` [ RunTime:0.0728s ]
+SQL: SELECT * FROM movie_comment t left join people_info as o on t.author_id = o.p_id  WHERE `info_id` = '6'  [ RunTime:0.0012s ]
+NOTIC: [2] Use of undefined constant truev - assumed 'truev' (this will throw an Error in a future version of PHP) F:\NewXampp\htdocs\dashboard\www\Thinkphp3.2\MovieAdministration\Application\Home\Controller\IndexController.class.php 第 150 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2019-12-24T00:06:16+08:00 ] 192.168.1.8 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/getPeopleComments?comment_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `movie_comment` [ RunTime:0.0994s ]
+SQL: SELECT * FROM movie_comment t left join people_info as o on t.author_id = o.p_id  WHERE `info_id` = '6'  [ RunTime:0.0003s ]
+NOTIC: [2] Use of undefined constant truev - assumed 'truev' (this will throw an Error in a future version of PHP) F:\NewXampp\htdocs\dashboard\www\Thinkphp3.2\MovieAdministration\Application\Home\Controller\IndexController.class.php 第 150 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2019-12-24T00:06:47+08:00 ] 192.168.1.8 /dashboard/www/Thinkphp3.2/MovieAdministration/Home/index/getPeopleComments?comment_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `movie_comment` [ RunTime:0.0086s ]
+SQL: SELECT * FROM movie_comment t left join people_info as o on t.author_id = o.p_id  WHERE `info_id` = '6'  [ RunTime:0.0003s ]
+NOTIC: [2] Use of undefined constant truev - assumed 'truev' (this will throw an Error in a future version of PHP) F:\NewXampp\htdocs\dashboard\www\Thinkphp3.2\MovieAdministration\Application\Home\Controller\IndexController.class.php 第 150 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000729s ]
+

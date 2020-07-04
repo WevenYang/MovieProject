@@ -4,28 +4,42 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+import com.example.administrator.traveldiary.R;
+import com.example.administrator.traveldiary.adapter.CommonAdapter;
 import com.example.administrator.traveldiary.adapter.MultiChoicesAdapter;
 import com.example.administrator.traveldiary.adapter.MyActorAdapter;
 import com.example.administrator.traveldiary.adapter.MyItemClickListener;
 import com.example.administrator.traveldiary.adapter.MyRecyclerViewAdapter;
+import com.example.administrator.traveldiary.adapter.TestAdapter;
+import com.example.administrator.traveldiary.adapter.ViewHolder;
 import com.example.administrator.traveldiary.adapter.WaterfallAdapter;
+import com.example.administrator.traveldiary.bean.MovieC;
 import com.example.administrator.traveldiary.bean.PersonData;
 import com.example.administrator.traveldiary.bean.Subject;
 import com.example.administrator.traveldiary.config.TargetUrl;
 import com.example.administrator.traveldiary.subscribers.ProgressSubscriber;
 import com.example.administrator.traveldiary.subscribers.SubscriberOnNextListener;
 import com.example.administrator.traveldiary.util.HttpMethods;
+import com.example.administrator.traveldiary.util.MyToast;
 import com.example.administrator.traveldiary.util.SharePreferenceUtils;
 import com.example.administrator.traveldiary.view.MainActivity;
+import com.example.administrator.traveldiary.view.MovieCommentActivity;
 import com.example.administrator.traveldiary.view.MovieDetailActivity;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Logger;
+
+import jp.wasabeef.glide.transformations.RoundedCornersTransformation;
 
 /**
  * Created by NewHT on 2016/10/10.
@@ -35,157 +49,140 @@ public class RecyclerViewPresent {
     Context mContext;
     SubscriberOnNextListener getTopMovieOnNext;
     MultiChoicesAdapter adapter;
+    MyRecyclerViewAdapter aadapter;
+    List<Subject> arrayList;
 
     public RecyclerViewPresent(Context mContext) {
         this.mContext = mContext;
     }
 
-    public void getTopMovie(final RecyclerView view){
-        HttpMethods.getInstance().getTopMovie(new ProgressSubscriber(new SubscriberOnNextListener<List<Subject>>() {
+    public void getTopMovie(final RecyclerView view, final int index, int count){
+        HttpMethods.getInstance(0).getTopMovie(new ProgressSubscriber(new SubscriberOnNextListener<List<Subject>>() {
             @Override
             public void onNext(final List<Subject> o) {
-                MyRecyclerViewAdapter adapter = new MyRecyclerViewAdapter(o, mContext);
-                view.setAdapter(adapter);
-                adapter.setListener(new MyItemClickListener() {
-                    @Override
-                    public void onItemClick(View view, int postion) {
-                        Intent i = new Intent(mContext, MovieDetailActivity.class);
-                        i.putExtra("image", o.get(postion).getImages().getLarge());
-                        i.putExtra("id", o.get(postion).getId());
-                        i.putExtra("title", o.get(postion).getTitle());
-                        i.putExtra("link", o.get(postion).getAlt());
-                        mContext.startActivity(i);
+                if (aadapter == null){
+                    arrayList = new ArrayList<>();
+                    arrayList.addAll(o);
+                    aadapter = new MyRecyclerViewAdapter(arrayList, mContext);
+                    final LinearLayoutManager mLayout = new LinearLayoutManager(mContext);
+                    view.setLayoutManager(mLayout);
+                    view.setAdapter(aadapter);
+                    aadapter.setListener(new MyItemClickListener() {
+                        @Override
+                        public void onItemClick(View view, int postion) {
+                            Intent i = new Intent(mContext, MovieDetailActivity.class);
+                            i.putExtra("image", o.get(postion).getImages().getLarge());
+                            i.putExtra("id", o.get(postion).getId());
+                            i.putExtra("title", o.get(postion).getTitle());
+                            i.putExtra("link", o.get(postion).getAlt());
+                            mContext.startActivity(i);
+                        }
+                    });
+                }else{
+                    //当加载后下拉刷新时，index会恢复为0，需清空数组元素
+                    if (index == 0){
+                        arrayList.clear();
                     }
-                });
-            }
-        }, mContext), 0, 20, TargetUrl.API_KEY);
-
-    }
-
-    public void getHotMovie(final RecyclerView view){
-        HttpMethods.getInstance().getHotMovie(new ProgressSubscriber(new SubscriberOnNextListener<List<Subject>>() {
-            @Override
-            public void onNext(final List<Subject> o) {
-                final MyRecyclerViewAdapter aadapter = new MyRecyclerViewAdapter(o, mContext);
-                final LinearLayoutManager mLayout = new LinearLayoutManager(mContext);
-                view.setLayoutManager(mLayout);
-                view.setAdapter(aadapter);
-                aadapter.setListener(new MyItemClickListener() {
-                    @Override
-                    public void onItemClick(View view, int postion) {
-                        Intent i = new Intent(mContext, MovieDetailActivity.class);
-                        i.putExtra("image", o.get(postion).getImages().getLarge());
-                        i.putExtra("id", o.get(postion).getId());
-                        i.putExtra("title", o.get(postion).getTitle());
-                        mContext.startActivity(i);
-                    }
-                });
-            }
-        }, mContext), "北京", TargetUrl.API_KEY);
-    }
-
-    public void getLoadingMovie(final RecyclerView view){
-        HttpMethods.getInstance().getLoadingMovie(new ProgressSubscriber(new SubscriberOnNextListener<List<Subject>>() {
-            @Override
-            public void onNext(final List<Subject> o) {
-                WaterfallAdapter adapter = new WaterfallAdapter(o, mContext);
-                view.setAdapter(adapter);
-                adapter.setListener(new MyItemClickListener() {
-                    @Override
-                    public void onItemClick(View view, int postion) {
-                        Intent i = new Intent(mContext, MovieDetailActivity.class);
-                        i.putExtra("image", o.get(postion).getImages().getLarge());
-                        i.putExtra("id", o.get(postion).getId());
-                        i.putExtra("title", o.get(postion).getTitle());
-                        mContext.startActivity(i);
-                    }
-                });
-            }
-        }, mContext), 0, 22, TargetUrl.API_KEY);
-    }
-
-    public void getNearbyHotMovie(final RecyclerView view, String city){
-        HttpMethods.getInstance().getHotMovie(new ProgressSubscriber(new SubscriberOnNextListener<List<Subject>>() {
-            @Override
-            public void onNext(final List<Subject> o) {
-                MyRecyclerViewAdapter adapter = new MyRecyclerViewAdapter(o, mContext);
-                view.setAdapter(adapter);
-                adapter.setListener(new MyItemClickListener() {
-                    @Override
-                    public void onItemClick(View view, int postion) {
-                        Intent i = new Intent(mContext, MovieDetailActivity.class);
-                        i.putExtra("image", o.get(postion).getImages().getLarge());
-                        i.putExtra("id", o.get(postion).getId());
-                        i.putExtra("title", o.get(postion).getTitle());
-                        mContext.startActivity(i);
-                    }
-                });
-            }
-        }, mContext), city, TargetUrl.API_KEY);
-    }
-
-//    public void getMovieComment(final RecyclerView view, String token){
-//        Subscriber s = new Subscriber<List<Comment>>() {
-//            @Override
-//            public void onCompleted() {
-//
-//            }
-//
-//            @Override
-//            public void onError(Throwable e) {
-//
-//            }
-//
-//            @Override
-//            public void onNext(final List<Comment> o) {
-//                CommentAdapter adapter = new CommentAdapter(mContext, o);
-////                Log.i("title", o.get(0).getEssay_title());
+                    arrayList.addAll(o);
+                    aadapter.notifyDataSetChanged();
+                }
+//                TestAdapter adapter = new TestAdapter(o, mContext);
 //                view.setAdapter(adapter);
-//                adapter.setOnItemClickListener(new MyItemClickListener() {
+//                adapter.setListener(new MyItemClickListener() {
 //                    @Override
 //                    public void onItemClick(View view, int postion) {
-//                        Intent i = new Intent(mContext, CommentDetailActivity.class);
+//                        Intent i = new Intent(mContext, MovieDetailActivity.class);
+//                        i.putExtra("image", o.get(postion).getImages().getLarge());
 //                        i.putExtra("id", o.get(postion).getId());
-//                        i.putExtra("author_img", o.get(postion).getAuthor_image());
-//                        i.putExtra("author_level", o.get(postion).getAuthor_level());
-//                        i.putExtra("author_name", o.get(postion).getAuthor_name());
-//                        i.putExtra("essay_content", o.get(postion).getEssay_content());
-////                        Log.i("content", o.get(postion).getEssay_content());
-//                        i.putExtra("essay_img", o.get(postion).getEssay_image());
-//                        i.putExtra("essay_title", o.get(postion).getEssay_title());
+//                        i.putExtra("title", o.get(postion).getTitle());
+//                        i.putExtra("link", o.get(postion).getAlt());
 //                        mContext.startActivity(i);
 //                    }
 //                });
-//            }
-//        };
-//        new LoginRequest(mContext).getComment(s, token);
-//    }
 
-//    public void getLoginResult(final String aco, final String psd){
-//
-//        new LoginRequest(mContext).getLogin(new ProgressSubscriber(new SubscriberOnNextListener<PersonData>() {
-//            @Override
-//            public void onNext(PersonData o) {
-////                if (o.getId().){
-////                    MyToast.showMyToast(mContext, "登录失败，请确认账号密码");
-//////                    Log.i("null", "false");
-////                }else {
-////                    MyToast.showMyToast(mContext, o.getId()+"");
-//                    SharePreferenceUtils.setParam(mContext, "account", aco);
-//                    SharePreferenceUtils.setParam(mContext, "password", psd);
-//                    Intent i = new Intent(mContext, MainActivity.class);
-//                    Bundle b = new Bundle();
-////                    SharePreferenceUtils.setParam(mContext, "account", );
-//                    b.putInt("id", o.getId());
-//                    b.putString("nick", o.getNick());
-//                    b.putString("img", o.getImage());
-//                    i.putExtras(b);
-//                    mContext.startActivity(i);
-////                }
-//            }
-//        }, mContext), aco, psd);
-//    }
+            }
+        }, mContext), index, count, TargetUrl.API_KEY);
 
+    }
+
+    public void getHotMovie(final RecyclerView view, final int index, int count){
+        Log.i("nice", "index is " + index + " and count is " + count);
+        HttpMethods.getInstance(0).getHotMovie(new ProgressSubscriber(new SubscriberOnNextListener<List<Subject>>() {
+            @Override
+            public void onNext(final List<Subject> o) {
+                if (aadapter == null){
+                    arrayList = new ArrayList<>();
+                    arrayList.addAll(o);
+                    aadapter = new MyRecyclerViewAdapter(arrayList, mContext);
+                    final LinearLayoutManager mLayout = new LinearLayoutManager(mContext);
+                    view.setLayoutManager(mLayout);
+                    view.setAdapter(aadapter);
+                    aadapter.setListener(new MyItemClickListener() {
+                        @Override
+                        public void onItemClick(View view, int postion) {
+                            Intent i = new Intent(mContext, MovieDetailActivity.class);
+                            i.putExtra("image", o.get(postion).getImages().getLarge());
+                            i.putExtra("id", o.get(postion).getId());
+                            i.putExtra("title", o.get(postion).getTitle());
+                            mContext.startActivity(i);
+                        }
+                    });
+                }else{
+                    //当加载后下拉刷新时，index会恢复为0，需清空数组元素
+                    if (index == 0){
+                        arrayList.clear();
+                    }
+                    arrayList.addAll(o);
+                    aadapter.notifyDataSetChanged();
+                }
+            }
+        }, mContext), "北京", index, count, TargetUrl.API_KEY);
+    }
+
+    public void getLoadingMovie(final RecyclerView view, final int index, int count){
+        HttpMethods.getInstance(0).getLoadingMovie(new ProgressSubscriber(new SubscriberOnNextListener<List<Subject>>() {
+            @Override
+            public void onNext(final List<Subject> o) {
+                if (aadapter == null){
+                    arrayList = new ArrayList<>();
+                    arrayList.addAll(o);
+                    aadapter = new MyRecyclerViewAdapter(arrayList, mContext);
+                    final LinearLayoutManager mLayout = new LinearLayoutManager(mContext);
+                    view.setLayoutManager(mLayout);
+                    view.setAdapter(aadapter);
+                    aadapter.setListener(new MyItemClickListener() {
+                        @Override
+                        public void onItemClick(View view, int postion) {
+                            Intent i = new Intent(mContext, MovieDetailActivity.class);
+                            i.putExtra("image", o.get(postion).getImages().getLarge());
+                            i.putExtra("id", o.get(postion).getId());
+                            i.putExtra("title", o.get(postion).getTitle());
+                            mContext.startActivity(i);
+                        }
+                    });
+                }else{
+                    //当加载后下拉刷新时，index会恢复为0，需清空数组元素
+                    if (index == 0){
+                        arrayList.clear();
+                    }
+                    arrayList.addAll(o);
+                    aadapter.notifyDataSetChanged();
+                }
+//                WaterfallAdapter adapter = new WaterfallAdapter(o, mContext);
+//                view.setAdapter(adapter);
+//                adapter.setListener(new MyItemClickListener() {
+//                    @Override
+//                    public void onItemClick(View view, int postion) {
+//                        Intent i = new Intent(mContext, MovieDetailActivity.class);
+//                        i.putExtra("image", o.get(postion).getImages().getLarge());
+//                        i.putExtra("id", o.get(postion).getId());
+//                        i.putExtra("title", o.get(postion).getTitle());
+//                        mContext.startActivity(i);
+//                    }
+//                });
+            }
+        }, mContext), index, count, TargetUrl.API_KEY);
+    }
 
 
     /**
@@ -193,7 +190,7 @@ public class RecyclerViewPresent {
      * @param recycler  搜索列表控件
      * @param s     搜索关键字
      */
-    public void multiChoices(final RecyclerView recycler, final String s){
+    public void multiChoices(final RecyclerView recycler, final String s, final int index, final int count){
         ArrayList<String> list = new ArrayList<String>();
         list.add("搜索名字:"+s);
         list.add("搜索类型:"+s);
@@ -203,41 +200,91 @@ public class RecyclerViewPresent {
             @Override
             public void onItemClick(View view, int postion) {
                if (postion == 0){
-                   HttpMethods.getInstance().getResultByName(new ProgressSubscriber(new SubscriberOnNextListener<List<Subject>>() {
+                   HttpMethods.getInstance(0).getResultByName(new ProgressSubscriber(new SubscriberOnNextListener<List<Subject>>() {
                        @Override
                        public void onNext(final List<Subject> o) {
-                           MyRecyclerViewAdapter adapter = new MyRecyclerViewAdapter(o, mContext);
-                           recycler.setAdapter(adapter);
-                           adapter.setListener(new MyItemClickListener() {
-                               @Override
-                               public void onItemClick(View view, int postion) {
-                                   Intent i = new Intent(mContext, MovieDetailActivity.class);
-                                   i.putExtra("image", o.get(postion).getImages().getLarge());
-                                   i.putExtra("id", o.get(postion).getId());
-                                   i.putExtra("title", o.get(postion).getTitle());
-                                   mContext.startActivity(i);
+                           if (aadapter == null){
+                               arrayList = new ArrayList<>();
+                               arrayList.addAll(o);
+                               aadapter = new MyRecyclerViewAdapter(arrayList, mContext);
+                               final LinearLayoutManager mLayout = new LinearLayoutManager(mContext);
+                               recycler.setLayoutManager(mLayout);
+                               recycler.setAdapter(aadapter);
+                               aadapter.setListener(new MyItemClickListener() {
+                                   @Override
+                                   public void onItemClick(View view, int postion) {
+                                       Intent i = new Intent(mContext, MovieDetailActivity.class);
+                                       i.putExtra("image", o.get(postion).getImages().getLarge());
+                                       i.putExtra("id", o.get(postion).getId());
+                                       i.putExtra("title", o.get(postion).getTitle());
+                                       mContext.startActivity(i);
+                                   }
+                               });
+                           }else{
+                               //当加载后下拉刷新时，index会恢复为0，需清空数组元素
+                               if (index == 0){
+                                   arrayList.clear();
                                }
-                           });
+                               arrayList.addAll(o);
+                               aadapter.notifyDataSetChanged();
+                           }
+//                           MyRecyclerViewAdapter adapter = new MyRecyclerViewAdapter(o, mContext);
+//                           recycler.setAdapter(adapter);
+//                           adapter.setListener(new MyItemClickListener() {
+//                               @Override
+//                               public void onItemClick(View view, int postion) {
+//                                   Intent i = new Intent(mContext, MovieDetailActivity.class);
+//                                   i.putExtra("image", o.get(postion).getImages().getLarge());
+//                                   i.putExtra("id", o.get(postion).getId());
+//                                   i.putExtra("title", o.get(postion).getTitle());
+//                                   mContext.startActivity(i);
+//                               }
+//                           });
                        }
-                   }, mContext), s, 0, 10, TargetUrl.API_KEY);
+                   }, mContext), s, index, count, TargetUrl.API_KEY);
                }else{
-                   HttpMethods.getInstance().getResultByTag(new ProgressSubscriber(new SubscriberOnNextListener<List<Subject>>() {
+                   HttpMethods.getInstance(0).getResultByTag(new ProgressSubscriber(new SubscriberOnNextListener<List<Subject>>() {
                        @Override
                        public void onNext(final List<Subject> o) {
-                           MyRecyclerViewAdapter adapter = new MyRecyclerViewAdapter(o, mContext);
-                           recycler.setAdapter(adapter);
-                           adapter.setListener(new MyItemClickListener() {
-                               @Override
-                               public void onItemClick(View view, int postion) {
-                                   Intent i = new Intent(mContext, MovieDetailActivity.class);
-                                   i.putExtra("image", o.get(postion).getImages().getLarge());
-                                   i.putExtra("id", o.get(postion).getId());
-                                   i.putExtra("title", o.get(postion).getTitle());
-                                   mContext.startActivity(i);
+                           if (aadapter == null){
+                               arrayList = new ArrayList<>();
+                               arrayList.addAll(o);
+                               aadapter = new MyRecyclerViewAdapter(arrayList, mContext);
+                               final LinearLayoutManager mLayout = new LinearLayoutManager(mContext);
+                               recycler.setLayoutManager(mLayout);
+                               recycler.setAdapter(aadapter);
+                               aadapter.setListener(new MyItemClickListener() {
+                                   @Override
+                                   public void onItemClick(View view, int postion) {
+                                       Intent i = new Intent(mContext, MovieDetailActivity.class);
+                                       i.putExtra("image", o.get(postion).getImages().getLarge());
+                                       i.putExtra("id", o.get(postion).getId());
+                                       i.putExtra("title", o.get(postion).getTitle());
+                                       mContext.startActivity(i);
+                                   }
+                               });
+                           }else{
+                               //当加载后下拉刷新时，index会恢复为0，需清空数组元素
+                               if (index == 0){
+                                   arrayList.clear();
                                }
-                           });
+                               arrayList.addAll(o);
+                               aadapter.notifyDataSetChanged();
+                           }
+//                           MyRecyclerViewAdapter adapter = new MyRecyclerViewAdapter(o, mContext);
+//                           recycler.setAdapter(adapter);
+//                           adapter.setListener(new MyItemClickListener() {
+//                               @Override
+//                               public void onItemClick(View view, int postion) {
+//                                   Intent i = new Intent(mContext, MovieDetailActivity.class);
+//                                   i.putExtra("image", o.get(postion).getImages().getLarge());
+//                                   i.putExtra("id", o.get(postion).getId());
+//                                   i.putExtra("title", o.get(postion).getTitle());
+//                                   mContext.startActivity(i);
+//                               }
+//                           });
                        }
-                   }, mContext), s, 0, 10, TargetUrl.API_KEY);
+                   }, mContext), s, index, count, TargetUrl.API_KEY);
                }
             }
         });
@@ -250,7 +297,7 @@ public class RecyclerViewPresent {
      * @param id    电影id
      */
     public void getDetailMovie(final RecyclerView recyclerView1, final RecyclerView recyclerView2, String id){
-        HttpMethods.getInstance().getDetailMovie(new ProgressSubscriber(new SubscriberOnNextListener<Subject>() {
+        HttpMethods.getInstance(0).getDetailMovie(new ProgressSubscriber(new SubscriberOnNextListener<Subject>() {
                 @Override
                 public void onNext(final Subject o) {
                     MyActorAdapter director = new MyActorAdapter(o.getDirectors(), mContext);
@@ -286,7 +333,7 @@ public class RecyclerViewPresent {
      */
     public void getMovieSummary(final TextView summary, final TextView kind, final TextView area, final TextView year, final TextView title, String id){
 
-        HttpMethods.getInstance().getDetailMovie(new ProgressSubscriber(new SubscriberOnNextListener<Subject>() {
+        HttpMethods.getInstance(0).getDetailMovie(new ProgressSubscriber(new SubscriberOnNextListener<Subject>() {
             @Override
             public void onNext(Subject o) {
                 StringBuffer s = new StringBuffer();
@@ -301,7 +348,56 @@ public class RecyclerViewPresent {
         }, mContext), id, TargetUrl.API_KEY);
     }
 
+    /**
+     * 获取影评列表
+     * @param view      RecyclerView控件列表
+     * @param userId    用户id
+     */
+    public void getMovieComment(final RecyclerView view, String userId){
+        HttpMethods.getInstance(1).getMovieCommentsList(new ProgressSubscriber(new SubscriberOnNextListener<MovieC>() {
+            @Override
+            public void onNext(MovieC o) {
+                view.setLayoutManager(new LinearLayoutManager(mContext));
+                CommonAdapter<MovieC.DataBean> adapter = new CommonAdapter<MovieC.DataBean>(mContext, R.layout.comment_item, o.getData()) {
+                    @Override
+                    public void convert(ViewHolder holder, final MovieC.DataBean o) {
+                        CardView cv_item = (CardView) holder.getView(R.id.cv_item);
+                        ImageView movieImg = (ImageView) holder.getView(R.id.movieImg);
+                        TextView title = (TextView) holder.getView(R.id.title);
+                        TextView author_name = (TextView) holder.getView(R.id.authorName);
+                        ImageView author_img = (ImageView) holder.getView(R.id.authorImg);
+                        if (o.getM_pass().equals("1")){
+                            Glide.with(mContext).load(o.getImg()).into(movieImg);
+                            Glide.with(mContext).load(o.getPic()).bitmapTransform(new RoundedCornersTransformation(mContext, 20, 0)).into(author_img);
+                            title.setText(o.getTitle());
+                            author_name.setText(o.getNick_name());
+                            cv_item.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View view) {
+                                    Intent i = new Intent(mContext, MovieCommentActivity.class);
+                                    Bundle bundle = new Bundle();
+                                    bundle.putString("id", o.getId());
+                                    bundle.putString("img", o.getImg());
+                                    bundle.putString("pic", o.getPic());
+                                    bundle.putString("content", o.getContent());
+                                    bundle.putString("title", o.getTitle());
+                                    i.putExtra("Bundle", bundle);
+                                    mContext.startActivity(i);
+                                }
+                            });
+                        }else {
+                            cv_item.setVisibility(View.GONE);
+                        }
 
+                    }
+                };
+                view.setAdapter(adapter);
 
+            }
+        }, mContext), userId);
+    }
 
+    public void getMovieCommentDatail(){
+
+    }
 }

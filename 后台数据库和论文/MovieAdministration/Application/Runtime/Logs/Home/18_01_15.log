@@ -1,0 +1,52 @@
+[ 2018-01-15T00:02:18+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getPurchaseOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `purchase`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2018-01-15T00:02:21+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getRepairOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0518s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001731s ]
+
+[ 2018-01-15T00:02:33+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getPurchaseOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0484s ]
+SQL: SELECT * FROM `purchase`  [ RunTime:0.0136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2018-01-15T00:12:38+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/uploadAllOrder?date=2018-01-14&title=www&type=0&content=wwww&status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0097s ]
+SQL: INSERT INTO `purchase` (`title`,`content`,`date`,`status`) VALUES ('www','wwww','2018-01-14','2') [ RunTime:0.0945s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+

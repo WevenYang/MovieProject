@@ -1,0 +1,51 @@
+[ 2018-02-04T17:34:37+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/index/repairOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007633s ]
+
+[ 2018-02-04T23:06:21+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getHitchOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010326s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.1528s ]
+SQL: SELECT * FROM `hitch`  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012231s ]
+
+[ 2018-02-04T23:35:17+08:00 ] 192.168.1.35 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.2472s ]
+SQL: SELECT * FROM `borrow`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0704s ]
+SQL: SELECT * FROM `purchase`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0442s ]
+SQL: SELECT * FROM `dump`  [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0519s ]
+SQL: SELECT * FROM `hitch`  [ RunTime:0.0415s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.1202s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.080582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.080755s ]
+

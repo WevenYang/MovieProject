@@ -26,13 +26,13 @@ public class NearbyActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nearby);
         initBase();
-        mSwipeRefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
-            @Override
-            public void onRefresh() {
-                present.getNearbyHotMovie(recycler, map);
-                mSwipeRefresh.setRefreshing(false);
-            }
-        });
+//        mSwipeRefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+//            @Override
+//            public void onRefresh() {
+//                present.getNearbyHotMovie(recycler, map);
+//                mSwipeRefresh.setRefreshing(false);
+//            }
+//        });
     }
 
     public void initBase(){
@@ -51,6 +51,6 @@ public class NearbyActivity extends BaseActivity {
         });
         LinearLayoutManager manager = new LinearLayoutManager(this);
         recycler.setLayoutManager(manager);
-        present.getNearbyHotMovie(recycler, map);
+//        present.getNearbyHotMovie(recycler, map);
     }
 }

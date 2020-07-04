@@ -1,0 +1,947 @@
+[ 2018-01-09T21:55:15+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000803s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000840s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011958s ]
+
+[ 2018-01-09T22:01:56+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.059650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.059689s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003087s ]
+
+[ 2018-01-09T22:02:03+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2018-01-09T22:04:27+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 46 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2018-01-09T22:04:46+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 46 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2018-01-09T22:05:26+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 46 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2018-01-09T22:05:32+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 46 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2018-01-09T22:05:36+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 46 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2018-01-09T22:05:39+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 46 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2018-01-09T22:09:16+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 46 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2018-01-09T22:09:34+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 46 Ë°å.
+ERR: Êó†Ê≥ïÂä†ËΩΩÊï∞ÊçÆÂ∫ìÈ©±Âä®: Think\Db\Driver\
+
+[ 2018-01-09T22:10:02+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001786s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 46 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2018-01-09T22:13:11+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 46 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2018-01-09T22:15:20+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 46 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2018-01-09T22:15:28+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 46 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2018-01-09T22:16:08+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/show?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 47 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2018-01-09T22:16:11+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 47 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2018-01-09T22:17:20+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 46 Ë°å.
+SQL: SHOW COLUMNS FROM `module_login` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `module_login` WHERE `account` = 'weven' AND `password` = '1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2018-01-09T22:33:45+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_module_login`
+
+[ 2018-01-09T22:34:00+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005267s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:34:01+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:34:02+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:34:52+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002592s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:34:53+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:35:11+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?acc=weven&psd=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:35:29+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?acc=weven&psd=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:35:30+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?acc=weven&psd=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:35:30+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?acc=weven&psd=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:35:30+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?acc=weven&psd=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:35:30+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?acc=weven&psd=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:35:30+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?acc=weven&psd=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:35:31+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?acc=weven&psd=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:35:31+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?acc=weven&psd=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:35:31+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?acc=weven&psd=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:35:31+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?acc=weven&psd=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:36:04+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:36:25+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `login`
+
+[ 2018-01-09T22:36:26+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `login`
+
+[ 2018-01-09T22:36:26+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `login`
+
+[ 2018-01-09T22:36:26+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `login`
+
+[ 2018-01-09T22:36:27+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `login`
+
+[ 2018-01-09T22:36:27+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `login`
+
+[ 2018-01-09T22:36:27+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `login`
+
+[ 2018-01-09T22:36:36+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:36:37+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:36:37+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:36:37+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:36:37+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:36:37+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:36:37+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:36:38+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:36:38+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:36:38+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:36:38+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:36:38+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:36:53+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:36:53+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:36:53+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:36:54+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:36:54+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:37:21+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:37:22+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:37:22+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:37:22+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+ERR: 1046:No database selected
+ [ SQLËØ≠Âè• ] : SHOW COLUMNS FROM `module_login`
+
+[ 2018-01-09T22:37:50+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+SQL: SHOW COLUMNS FROM `module_login` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `module_login` WHERE `account` = 'weven' AND `password` = '1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2018-01-09T22:38:13+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+SQL: SHOW COLUMNS FROM `module_login` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `module_login` WHERE `account` = 'weven' AND `password` = '1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2018-01-09T22:38:14+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+SQL: SHOW COLUMNS FROM `module_login` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `module_login` WHERE `account` = 'weven' AND `password` = '1' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2018-01-09T22:38:15+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+SQL: SHOW COLUMNS FROM `module_login` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `module_login` WHERE `account` = 'weven' AND `password` = '1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001530s ]
+
+[ 2018-01-09T22:38:36+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/login?account=weven&password=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 226 Ë°å.
+SQL: SHOW COLUMNS FROM `module_login` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `module_login` WHERE `account` = 'weven' AND `password` = '1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2018-01-09T22:49:19+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/filterShops?type=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 233 Ë°å.
+SQL: SHOW COLUMNS FROM `ele_shop` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `ele_shop` WHERE ( cool = 1 ) LIMIT 1   [ RunTime:0.0447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000682s ]
+
+[ 2018-01-09T22:49:29+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/filterShops?type=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 233 Ë°å.
+SQL: SHOW COLUMNS FROM `ele_shop` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `ele_shop` WHERE ( cool = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001119s ]
+
+[ 2018-01-09T22:51:46+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/myOrderAboutStatus?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 235 Ë°å.
+SQL: SHOW COLUMNS FROM `module_menu` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `module_menu` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2018-01-09T22:55:04+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/ele/index.php/home/index/getDetailMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\xampp\htdocs\dashboard\www\Thinkphp3.2\ele\Application\Home\Controller\IndexController.class.php Á¨¨ 235 Ë°å.
+SQL: SHOW COLUMNS FROM `shop_3` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `shop_3` LIMIT 1   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+

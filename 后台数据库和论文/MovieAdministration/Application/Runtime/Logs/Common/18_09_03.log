@@ -1,0 +1,24 @@
+[ 2018-09-03T00:24:29+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029421s ]
+ERR: 无法加载模块:Login
+
+[ 2018-09-03T23:59:07+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-03T23:59:08+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+ERR: 无法加载模块:I
+
+[ 2018-09-03T23:59:11+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+ERR: 无法加载模块:Login
+

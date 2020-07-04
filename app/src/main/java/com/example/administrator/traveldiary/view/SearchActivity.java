@@ -12,6 +12,7 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.example.administrator.traveldiary.R;
+import com.example.administrator.traveldiary.adapter.onLoadMoreListener;
 import com.example.administrator.traveldiary.presenter.RecyclerViewPresent;
 import com.example.administrator.traveldiary.util.MyToast;
 
@@ -25,6 +26,8 @@ public class SearchActivity extends BaseActivity implements SearchView.OnQueryTe
     LinearLayoutManager manager;
     RecyclerView recyclerView;
     RecyclerViewPresent present;
+    int startIndex = 0;
+    int count = 10;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,15 +72,21 @@ public class SearchActivity extends BaseActivity implements SearchView.OnQueryTe
     }
 
     @Override
-    public boolean onQueryTextChange(String newText) {
+    public boolean onQueryTextChange(final String newText) {
         if (newText.equals("") || newText == null){
             recyclerView.setVisibility(View.INVISIBLE);
         }else{
             recyclerView.setVisibility(View.VISIBLE);
             recyclerView.setLayoutManager(manager);
-            present.multiChoices(recyclerView, newText);
+            present.multiChoices(recyclerView, newText, startIndex, count);
+            recyclerView.addOnScrollListener(new onLoadMoreListener(){
+                @Override
+                protected void onLoading(int countItem, int lastItem) {
+                    startIndex = startIndex + count;
+                    present.multiChoices(recyclerView, newText, startIndex, count);
+                }
+            });
         }
-
         return true;
     }
 }

@@ -34,13 +34,13 @@ public class ClassicFragment extends Fragment {
         view = inflater.inflate(R.layout.classic, container, false);
         present = new RecyclerViewPresent(this.getContext());
         initRecyclerView();
-        mSwipeRefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
-            @Override
-            public void onRefresh() {
-                present.getTopMovie(recycler);
-                mSwipeRefresh.setRefreshing(false);
-            }
-        });
+//        mSwipeRefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+//            @Override
+//            public void onRefresh() {
+//                present.getTopMovie(recycler);
+//                mSwipeRefresh.setRefreshing(false);
+//            }
+//        });
         return view;
     }
 
@@ -51,7 +51,7 @@ public class ClassicFragment extends Fragment {
         mSwipeRefresh = (SwipeRefreshLayout) view.findViewById(R.id.refresh);
         LinearLayoutManager mLayout = new LinearLayoutManager(getContext());
         recycler.setLayoutManager(mLayout);
-        present.getTopMovie(recycler);
+//        present.getTopMovie(recycler);
     }
 
 

@@ -12,6 +12,8 @@ import android.view.MotionEvent;
 import android.view.Window;
 import android.view.animation.AccelerateInterpolator;
 
+import cn.bmob.v3.Bmob;
+
 /**
  * Created by Administrator on 2016/9/19 0019.
  */
@@ -23,6 +25,7 @@ public class BaseActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.supportRequestWindowFeature(getWindow().FEATURE_NO_TITLE);
+        Bmob.initialize(this, "06dbb82084b73c59309b7beba6f8cfcf");
     }
 
 

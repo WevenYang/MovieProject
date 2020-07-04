@@ -1,0 +1,304 @@
+[ 2018-09-16T11:49:13+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/fonts/iconfont.eot?t=1508229193188
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T12:20:54+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/assets/i/examples/admin-chrome.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T12:20:54+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/assets/i/examples/admin-firefox.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T12:20:54+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T12:20:54+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/assets/i/examples/admin-ie.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T12:20:54+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/assets/i/examples/admin-safari.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T12:20:54+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/assets/i/examples/admin-opera.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T12:20:59+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T12:21:13+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+ERR: 无法加载模块:Login
+
+[ 2018-09-16T18:46:08+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+ERR: 无法加载模块:Public
+
+�模块:Public
+
+
+[ 2018-09-16T18:46:08+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/assets/i/examples/admin-opera.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T18:46:08+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/assets/i/examples/admin-safari.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T18:46:08+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/assets/i/examples/admin-ie.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T18:46:08+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T18:46:10+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T18:46:11+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T18:46:12+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T18:46:12+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T18:46:16+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/assets/i/examples/admin-firefox.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T18:46:16+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/assets/i/examples/admin-chrome.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T18:46:16+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T18:46:16+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/assets/i/examples/admin-opera.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T18:46:16+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/assets/i/examples/admin-safari.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T18:46:16+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/assets/i/examples/admin-ie.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T18:46:16+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T18:46:23+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/assets/i/examples/admin-chrome.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T18:46:23+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/assets/i/examples/admin-firefox.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T18:46:23+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/assets/i/examples/admin-ie.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T18:46:23+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T18:46:23+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/assets/i/examples/admin-safari.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T18:46:23+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T18:46:24+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T22:22:10+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T22:22:10+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T22:22:55+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T22:49:13+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/assets/i/examples/admin-chrome.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T22:49:13+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T22:49:13+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/assets/i/examples/admin-ie.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T22:49:13+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/assets/i/examples/admin-firefox.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T22:49:13+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/assets/i/examples/admin-opera.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T22:49:13+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/assets/i/examples/admin-safari.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T22:49:15+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T23:41:02+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T23:41:02+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T23:41:04+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/assets/i/examples/admin-chrome.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T23:41:04+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/assets/i/examples/admin-opera.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+ERR: 无法加载模块:Public
+
+
+[ 2018-09-16T23:41:04+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T23:41:04+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/assets/i/examples/admin-firefox.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002035s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T23:41:04+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/assets/i/examples/admin-ie.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-16T23:41:04+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+ERR: 无法加载模块:Public
+

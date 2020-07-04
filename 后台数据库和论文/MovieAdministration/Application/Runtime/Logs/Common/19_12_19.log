@@ -1,0 +1,156 @@
+[ 2019-12-19T22:26:22+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+ERR: 无法加载模块:Public
+
+[ 2019-12-19T22:37:24+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Public/css/verify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+ERR: 无法加载模块:Public
+
+[ 2019-12-19T22:37:24+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Public/js/page/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+ERR: 无法加载模块:Public
+
+[ 2019-12-19T22:37:25+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Public/css/verify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+ERR: 无法加载模块:Public
+
+[ 2019-12-19T22:37:25+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Public/js/verify.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+ERR: 无法加载模块:Public
+
+[ 2019-12-19T22:37:25+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Public/js/page/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+ERR: 无法加载模块:Public
+
+[ 2019-12-19T22:37:25+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Public/js/verify.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+ERR: 无法加载模块:Public
+
+[ 2019-12-19T22:37:25+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Public/js/page/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+ERR: 无法加载模块:Public
+
+[ 2019-12-19T22:37:28+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+ERR: 无法加载模块:Public
+
+[ 2019-12-19T23:57:34+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Public/css/verify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+ERR: 无法加载模块:Public
+
+[ 2019-12-19T23:57:34+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Public/js/page/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+ERR: 无法加载模块:Public
+
+[ 2019-12-19T23:57:34+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Public/js/verify.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+ERR: 无法加载模块:Public
+
+[ 2019-12-19T23:57:34+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Public/js/verify.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+ERR: 无法加载模块:Public
+
+[ 2019-12-19T23:57:34+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Public/js/page/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+ERR: 无法加载模块:Public
+
+[ 2019-12-19T23:57:47+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Public/css/verify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+ERR: 无法加载模块:Public
+
+[ 2019-12-19T23:57:47+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Public/js/verify.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+ERR: 无法加载模块:Public
+
+[ 2019-12-19T23:57:47+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Public/js/page/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+ERR: 无法加载模块:Public
+
+[ 2019-12-19T23:57:47+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Public/js/verify.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+ERR: 无法加载模块:Public
+
+[ 2019-12-19T23:57:47+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Public/js/page/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+ERR: 无法加载模块:Public
+
+[ 2019-12-19T23:58:01+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+ERR: 无法加载模块:Public
+
+[ 2019-12-19T23:58:49+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Public/js/page/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+ERR: 无法加载模块:Public
+
+[ 2019-12-19T23:58:49+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Public/js/verify.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+ERR: 无法加载模块:Public
+
+[ 2019-12-19T23:58:49+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Public/css/verify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+ERR: 无法加载模块:Public
+
+[ 2019-12-19T23:58:49+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Public/js/verify.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+ERR: 无法加载模块:Public
+
+[ 2019-12-19T23:58:49+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Public/js/page/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+ERR: 无法加载模块:Public
+
+[ 2019-12-19T23:58:52+08:00 ] ::1 /dashboard/www/Thinkphp3.2/MovieAdministration/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+ERR: 无法加载模块:Public
+

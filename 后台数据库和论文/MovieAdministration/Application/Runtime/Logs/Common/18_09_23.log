@@ -1,0 +1,12 @@
+[ 2018-09-23T00:44:48+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+ERR: 无法加载模块:Public
+
+[ 2018-09-23T00:44:49+08:00 ] ::1 /dashboard/www/Thinkphp3.2/test/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+ERR: 无法加载模块:Public
+

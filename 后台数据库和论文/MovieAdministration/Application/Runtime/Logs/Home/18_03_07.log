@@ -1,0 +1,419 @@
+[ 2018-03-07T21:47:13+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/getDataCalc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002591s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0248s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `borrow` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0232s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dump` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0352s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hitch` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0261s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `purchase` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0176s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `repair` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mymachine` [ RunTime:0.0295s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mymachine` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006298s ]
+
+[ 2018-03-07T21:47:16+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+ERR: 非法操作:t_reloadMachine
+
+[ 2018-03-07T21:47:55+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine?name=%22fuck%22&t_id=1&own=%22%E4%B8%BB%E4%BA%BA%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+ERR: 非法操作:t_reloadMachine
+
+[ 2018-03-07T21:48:28+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine?name=%22fuck%22&t_id=1&own=%22%E4%B8%BB%E4%BA%BA%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+ERR: 非法操作:t_reloadMachine
+
+[ 2018-03-07T21:50:21+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine?name=%22fuck%22&t_id=1&own=%22%E4%B8%BB%E4%BA%BA%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+ERR: 非法操作:t_reloadMachine
+
+[ 2018-03-07T21:55:59+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine?name=%22fuck%22&t_id=1&own=%22%E4%B8%BB%E4%BA%BA%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+ERR: 非法操作:t_reloadMachine
+
+[ 2018-03-07T21:56:00+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine?name=%22fuck%22&t_id=1&own=%22%E4%B8%BB%E4%BA%BA%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+ERR: 非法操作:t_reloadMachine
+
+[ 2018-03-07T21:56:00+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine?name=%22fuck%22&t_id=1&own=%22%E4%B8%BB%E4%BA%BA%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+ERR: 非法操作:t_reloadMachine
+
+[ 2018-03-07T21:56:01+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine?name=%22fuck%22&t_id=1&own=%22%E4%B8%BB%E4%BA%BA%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+ERR: 非法操作:t_reloadMachine
+
+[ 2018-03-07T21:56:53+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine?name=%22fuck%22&t_id=1&own=%22%E4%B8%BB%E4%BA%BA%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+ERR: 非法操作:t_reloadMachine
+
+[ 2018-03-07T21:56:53+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine?name=%22fuck%22&t_id=1&own=%22%E4%B8%BB%E4%BA%BA%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+ERR: 非法操作:t_reloadMachine
+
+[ 2018-03-07T21:56:53+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine?name=%22fuck%22&t_id=1&own=%22%E4%B8%BB%E4%BA%BA%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+ERR: 非法操作:t_reloadMachine
+
+[ 2018-03-07T21:56:54+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine?name=%22fuck%22&t_id=1&own=%22%E4%B8%BB%E4%BA%BA%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+ERR: 非法操作:t_reloadMachine
+
+[ 2018-03-07T21:56:54+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine?name=%22fuck%22&t_id=1&own=%22%E4%B8%BB%E4%BA%BA%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+ERR: 非法操作:t_reloadMachine
+
+[ 2018-03-07T21:56:54+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine?name=%22fuck%22&t_id=1&own=%22%E4%B8%BB%E4%BA%BA%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+ERR: 非法操作:t_reloadMachine
+
+[ 2018-03-07T21:56:54+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine?name=%22fuck%22&t_id=1&own=%22%E4%B8%BB%E4%BA%BA%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+ERR: 非法操作:t_reloadMachine
+
+[ 2018-03-07T21:56:54+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine?name=%22fuck%22&t_id=1&own=%22%E4%B8%BB%E4%BA%BA%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+ERR: 非法操作:t_reloadMachine
+
+[ 2018-03-07T21:56:55+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine?name=%22fuck%22&t_id=1&own=%22%E4%B8%BB%E4%BA%BA%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+ERR: 非法操作:t_reloadMachine
+
+[ 2018-03-07T21:56:55+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine?name=%22fuck%22&t_id=1&own=%22%E4%B8%BB%E4%BA%BA%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+ERR: 非法操作:t_reloadMachine
+
+[ 2018-03-07T21:57:03+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine?name=%22fuck%22&t_id=%E2%80%9C1%E2%80%9D&own=%22%E4%B8%BB%E4%BA%BA%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+ERR: 非法操作:t_reloadMachine
+
+[ 2018-03-07T21:57:30+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine?name=2&t_id=1&own=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+ERR: 非法操作:t_reloadMachine
+
+[ 2018-03-07T22:00:01+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine?name=2&t_id=1&own=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+ERR: 非法操作:t_reloadMachine
+
+[ 2018-03-07T22:00:04+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+ERR: 非法操作:t_reloadMachine
+
+[ 2018-03-07T22:00:06+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+ERR: 非法操作:t_reloadMachine
+
+[ 2018-03-07T22:00:32+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_getFilterOrder?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2018-03-07T22:00:48+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine?name=2&t_id=1&own=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+ERR: 非法操作:t_reloadMachine
+
+[ 2018-03-07T22:01:49+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine?name=2&t_id=1&own=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+ERR: 非法操作:t_reloadMachine
+
+[ 2018-03-07T22:22:05+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine?name=2&t_id=1&own=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003077s ]
+ERR: 非法操作:t_reloadMachine
+
+[ 2018-03-07T22:23:49+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine?name=2&t_id=1&own=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `machinelist` [ RunTime:0.0566s ]
+SQL: INSERT INTO `machinelist` (`name`,`t_id`,`own`,`cover`) VALUES ('1','2','3','https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2500398310,3060982317&fm=27&gp=0.jpg') [ RunTime:0.1181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005655s ]
+
+[ 2018-03-07T22:24:07+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine?name=2&t_id=1&own=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `machinelist` [ RunTime:0.0087s ]
+SQL: INSERT INTO `machinelist` (`name`,`t_id`,`own`,`cover`) VALUES ('1','2','3','https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2500398310,3060982317&fm=27&gp=0.jpg') [ RunTime:0.0791s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2018-03-07T22:24:38+08:00 ] 127.0.0.1 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine?name=2&t_id=1&own=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `machinelist` [ RunTime:0.0092s ]
+SQL: INSERT INTO `machinelist` (`name`,`t_id`,`own`,`cover`) VALUES ('1','2','3','https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2500398310,3060982317&fm=27&gp=0.jpg') [ RunTime:0.0711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2018-03-07T23:08:42+08:00 ] 192.168.1.11 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.1051s ]
+SQL: SELECT * FROM `borrow`  [ RunTime:0.0277s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0759s ]
+SQL: SELECT * FROM `purchase`  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0294s ]
+SQL: SELECT * FROM `dump`  [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `hitch`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0318s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.049341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.049387s ]
+
+[ 2018-03-07T23:08:55+08:00 ] 192.168.1.11 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine?t_id=ee&own=ee&name=ee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002772s ]
+SQL: SHOW COLUMNS FROM `machinelist` [ RunTime:0.0185s ]
+SQL: INSERT INTO `machinelist` (`name`,`t_id`,`own`,`cover`) VALUES ('ee','ee','ee','https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2500398310,3060982317&fm=27&gp=0.jpg') [ RunTime:0.2150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004596s ]
+
+[ 2018-03-07T23:09:00+08:00 ] 192.168.1.11 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `borrow`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0976s ]
+SQL: SELECT * FROM `purchase`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0880s ]
+SQL: SELECT * FROM `dump`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0861s ]
+SQL: SELECT * FROM `hitch`  [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0677s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003046s ]
+
+[ 2018-03-07T23:18:52+08:00 ] 192.168.1.11 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `borrow`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0204s ]
+SQL: SELECT * FROM `purchase`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `dump`  [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `hitch`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0229s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000724s ]
+
+[ 2018-03-07T23:19:10+08:00 ] 192.168.1.11 /dashboard/www/thinkphp3.2/machine/home/index/t_reloadMachine?t_id=rr&own=rr&name=tt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007424s ]
+SQL: SHOW COLUMNS FROM `machinelist` [ RunTime:0.0667s ]
+SQL: INSERT INTO `machinelist` (`name`,`t_id`,`own`,`cover`) VALUES ('tt','rr','rr','https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2500398310,3060982317&fm=27&gp=0.jpg') [ RunTime:0.7780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2018-03-07T23:19:13+08:00 ] 192.168.1.11 /dashboard/www/thinkphp3.2/machine/home/index/getAllOrder?=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0771s ]
+SQL: SELECT * FROM `borrow`  [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `purchase` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `purchase`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `dump` [ RunTime:0.0396s ]
+SQL: SELECT * FROM `dump`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hitch` [ RunTime:0.0458s ]
+SQL: SELECT * FROM `hitch`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `repair` [ RunTime:0.0363s ]
+SQL: SELECT * FROM `repair`  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001138s ]
+
